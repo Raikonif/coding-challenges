@@ -1,0 +1,3 @@
+# Coding Challenges
+
+this is a coding challenges repository for practicing coding problems and improving problem-solving skills. It contains a collection of coding challenges from various platforms, including LeetCode, HackerRank, CodeSignal, and more. Each challenge is categorized by difficulty level and topic, making it easier for users to find and practice specific types of problems. The repository also includes solutions and explanations for each challenge to help users understand the concepts and approaches used to solve them. Whether you're a beginner looking to learn programming or an experienced developer aiming to sharpen your skills, this repository is a valuable resource for coding practice.
