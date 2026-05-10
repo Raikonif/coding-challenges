@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "rai-learning-skill": {
+      "source": "Raikonif/rai-learning-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "51d5d4c9b756fb9a053cf077873fc61d2f59caf97d7a58e8392a13847330bcdd"
+    }
+  }
+}
