@@ -7,5 +7,11 @@ Fuente: https://coding-challenges.dev/problems/python-es-positivo
 
 
 def is_positive(value: int) -> bool:
-    # Escribe tu solución aquí
-    return False
+    return value > 0
+
+
+print(is_positive(5))
+print(is_positive(2))
+print(is_positive(-3))
+print(is_positive(4))
+print(is_positive(0))
