@@ -11,5 +11,14 @@ Fuente: https://coding-challenges.dev/problems/python-es-numero-valido
 
 
 def es_numero_valido(value: str) -> bool:
-    # Escribe tu solución aquí
-    return False
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
+
+
+print(es_numero_valido("42"))
+print(es_numero_valido("-3.14"))
+print(es_numero_valido("abc"))
+print(es_numero_valido(""))
