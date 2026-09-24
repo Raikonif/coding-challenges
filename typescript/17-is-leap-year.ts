@@ -3,6 +3,5 @@
 // Fuente: https://coding-challenges.dev/problems/typescript-ano-bisiesto
 
 export function isLeapYear(year: number): boolean {
-  // Escribe tu solución aquí
-  return false;
+  return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
 }

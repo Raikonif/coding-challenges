@@ -3,7 +3,7 @@
 // Fuente: https://coding-challenges.dev/problems/acceder-a-propiedad
 
 function getProperty(obj: Record<string, unknown>, key: string): unknown {
-  return undefined;
+  return obj[key];
 }
 
 // No modificar: necesario para evaluar el resultado.

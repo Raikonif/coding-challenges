@@ -3,8 +3,7 @@
 // Fuente: https://coding-challenges.dev/problems/es-multiplo
 
 function isMultiple(n: number, m: number): boolean {
-  // Devuelve true si n es múltiplo de m, false si m es 0
-  return false;
+  return m !== 0 && n % m === 0;
 }
 
 // No modificar: necesario para evaluar el resultado.

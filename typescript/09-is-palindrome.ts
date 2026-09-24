@@ -4,6 +4,6 @@
 // Fuente: https://coding-challenges.dev/problems/typescript-es-palindromo
 
 export function isPalindrome(text: string): boolean {
-  // Escribe tu solución aquí
-  return false;
+  const normalized = text.toLowerCase();
+  return normalized === [...normalized].reverse().join("");
 }

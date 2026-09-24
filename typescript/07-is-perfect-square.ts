@@ -4,6 +4,9 @@
 // Fuente: https://coding-challenges.dev/problems/typescript-es-cuadrado-perfecto
 
 export function isPerfectSquare(n: number): boolean {
-  // Escribe tu solución aquí
+  if (n < 0) return false;
+  for (let candidate = 0; candidate * candidate <= n; candidate++) {
+    if (candidate * candidate === n) return true;
+  }
   return false;
 }

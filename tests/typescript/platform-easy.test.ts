@@ -20,17 +20,18 @@ import { getProperty } from "../../typescript/16-get-property";
 import { isLeapYear } from "../../typescript/17-is-leap-year";
 import { flattenOneLevel } from "../../typescript/18-flatten-one-level";
 import { calculateIMC } from "../../typescript/19-calculate-imc";
-import { capitalizeFirstLetter } from "../../typescript/20-capitalize-first-letter";
-import { mostFrequentChar } from "../../typescript/21-most-frequent-char";
-import { commonChars } from "../../typescript/22-common-chars";
-import { celsiusToFahrenheit } from "../../typescript/23-celsius-to-fahrenheit";
-import { rot13 } from "../../typescript/24-rot13";
-import { clampNumber } from "../../typescript/25-clamp-number";
-import { countUniqueChars } from "../../typescript/26-count-unique-chars";
-import { countConsonants } from "../../typescript/27-count-consonants";
-import { countDigits } from "../../typescript/28-count-digits";
-import { contarEnRango } from "../../typescript/29-count-in-range";
-import { countAboveAverage } from "../../typescript/30-count-above-average";
+import { average } from "../../typescript/20-average";
+import { capitalizeFirstLetter } from "../../typescript/21-capitalize-first-letter";
+import { mostFrequentChar } from "../../typescript/22-most-frequent-char";
+import { commonChars } from "../../typescript/23-common-chars";
+import { celsiusToFahrenheit } from "../../typescript/24-celsius-to-fahrenheit";
+import { rot13 } from "../../typescript/25-rot13";
+import { clampNumber } from "../../typescript/26-clamp-number";
+import { countUniqueChars } from "../../typescript/27-count-unique-chars";
+import { countConsonants } from "../../typescript/28-count-consonants";
+import { countDigits } from "../../typescript/29-count-digits";
+import { contarEnRango } from "../../typescript/30-count-in-range";
+import { countAboveAverage } from "../../typescript/31-count-above-average";
 
 type AnyFunction = (...args: any[]) => unknown;
 type Case = [args: unknown[], expected: unknown];
@@ -64,11 +65,11 @@ platformCases("startsWith", startsWith, [
 ]);
 
 platformCases("isPerfectSquare", isPerfectSquare, [
-  [[0], true], [[1], true], [[4], true], [[14], false], [[25], true], [[26], false],
+  [[0], true], [[1], true], [[4], true], [[14], false], [[25], true], [[26], false], [[-1], false],
 ]);
 
 platformCases("isDivisible", isDivisible, [
-  [[10, 2], true], [[9, 3], true], [[7, 2], false], [[100, 10], true],
+  [[10, 2], true], [[9, 3], true], [[7, 2], false], [[100, 10], true], [[10, 0], false],
 ]);
 
 platformCases("isInteger", isInteger, [
@@ -82,7 +83,7 @@ platformCases("isMultiple", isMultiple, [
 
 platformCases("isPalindrome", isPalindrome, [
   [["racecar"], true], [["hello"], false], [["Aba"], true],
-  [["A"], true], [[""], true],
+  [["A"], true], [[""], true], [["A man, a plan"], false],
 ]);
 
 platformCases("isEven", isEven, [[[4], true], [[7], false]]);
@@ -112,9 +113,8 @@ platformCases("isInRange", isInRange, [
 
 platformCases("endsWithSuffix", endsWithSuffix, [
   [["hola mundo", "mundo"], true], [["coding", "go"], false],
-  [["abc", ""], true], [["ab", "abc"], false],
-  [["javascript", "script"], true], [["hello", "hello"], true],
-  [["", ""], true],
+  [["abc", ""], true], [["ab", "abc"], false], [["javascript", "script"], true],
+  [["hello", "hello"], true], [["", ""], true],
 ]);
 
 platformCases("getProperty", getProperty, [
@@ -139,6 +139,10 @@ platformCases("flattenOneLevel", flattenOneLevel, [
 platformCases("calculateIMC", calculateIMC, [
   [[70, 1.75], 22.86], [[80, 1.75], 26.12], [[50, 1.75], 16.33],
   [[90, 1.8], 27.78], [[60, 1.65], 22.04],
+]);
+
+platformCases("average", average, [
+  [[[1, 2, 3, 4, 5]], 3], [[[10, 20, 30]], 20], [[[7]], 7], [[[]], 0],
 ]);
 
 platformCases("capitalizeFirstLetter", capitalizeFirstLetter, [

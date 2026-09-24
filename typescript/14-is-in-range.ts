@@ -3,6 +3,5 @@
 // Fuente: https://coding-challenges.dev/problems/typescript-esta-en-rango
 
 export function isInRange(num: number, min: number, max: number): boolean {
-  // Escribe tu solución aquí
-  return false;
+  return min <= num && num <= max;
 }

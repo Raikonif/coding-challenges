@@ -4,6 +4,5 @@
 // Fuente: https://coding-challenges.dev/problems/typescript-es-numero-valido
 
 export function esNumeroValido(value: string): boolean {
-  // Escribe tu solución aquí
-  return false;
+  return /^-?\d+(\.\d+)?$/.test(value);
 }

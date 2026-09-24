@@ -3,7 +3,7 @@
 // Fuente: https://coding-challenges.dev/problems/es-positivo
 
 function isPositive(value: number): boolean {
-  return false;
+  return value > 0;
 }
 
 // No modificar: necesario para evaluar el resultado.

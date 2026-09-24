@@ -9,7 +9,7 @@ Fuente: https://coding-challenges.dev/problems/python-es-multiplo
 
 
 def is_multiple(n: int, m: int) -> bool:
-    return n % m == 0
+    return m != 0 and n % m == 0
 
 
 print(is_multiple(10, 2))

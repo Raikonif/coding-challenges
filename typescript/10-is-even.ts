@@ -3,7 +3,7 @@
 // Fuente: https://coding-challenges.dev/problems/es-par
 
 function isEven(value: number): boolean {
-  return false;
+  return value % 2 === 0;
 }
 
 // No modificar: necesario para evaluar el resultado.

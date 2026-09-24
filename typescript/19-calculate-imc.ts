@@ -3,6 +3,5 @@
 // Fuente: https://coding-challenges.dev/problems/typescript-calcular-imc
 
 export function calculateIMC(weight: number, height: number): number {
-  // Escribe tu solución aquí
-  return 0;
+  return Math.round((weight / height ** 2) * 100) / 100;
 }

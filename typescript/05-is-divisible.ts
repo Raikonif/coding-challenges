@@ -13,7 +13,7 @@
 // Puedes usar console.log() para depurar. Los resultados aparecen en la Consola de salida, no en el navegador.
 
 function isDivisible(value: number, divisor: number): boolean {
-  return value % divisor == 0;
+  return divisor !== 0 && value % divisor === 0;
 }
 
 // No modificar: necesario para evaluar el resultado.

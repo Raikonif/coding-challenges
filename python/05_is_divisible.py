@@ -16,4 +16,4 @@ Puedes usar print() para depurar. Los resultados aparecen en la Consola de salid
 
 
 def is_divisible(value: int, divisor: int) -> bool:
-    return value % divisor == 0
+    return divisor != 0 and value % divisor == 0

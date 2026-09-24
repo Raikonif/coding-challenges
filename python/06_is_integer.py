@@ -17,4 +17,4 @@ Puedes usar print() para depurar. Los resultados aparecen en la Consola de salid
 
 
 def is_integer(value: float) -> bool:
-    return isinstance(value, int)
+    return isinstance(value, (int, float)) and value % 1 == 0
