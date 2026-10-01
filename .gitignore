@@ -1,2 +1,4 @@
 __pycache__/
 *.py[cod]
+python/platform_solutions.py
+typescript/platform-solutions.ts
