@@ -1,14 +1,20 @@
 """Eliminar duplicados ordenados (hard).
 
-Source exercise: https://coding-challenges.dev/problems/eliminar-duplicados-ordenados
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-eliminar-duplicados-ordenados
 
-from python.platform_solutions import solve_challenge
+Dado un array de números **ordenado**, devuelve cuántos elementos únicos hay (modificando in-place no requerido; devuelve el número).
+
+### Ejemplo
+
+```
+removeDuplicates([1, 1, 2, 2, 3]) → 3
+removeDuplicates([1, 2, 3]) → 3
+```"""
 
 
-def solve(*args):
-    """Solve the Eliminar duplicados ordenados challenge."""
-    return solve_challenge("eliminar-duplicados-ordenados", *args)
+def eliminar_duplicados_ordenados(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-eliminar_duplicados_ordenados = solve
+
+solve = eliminar_duplicados_ordenados

@@ -1,12 +1,17 @@
 /**
  * Suma con reduce (medium).
  * Source exercise: https://coding-challenges.dev/problems/suma-reduce
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Implementa una función que sume todos los elementos de un array usando el método **reduce**.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * sumReduce([1, 2, 3, 4]) → 10
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("suma-reduce", args);
+export function sumReduce(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const sumReduce = solve;
+export const solve = sumReduce;

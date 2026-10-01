@@ -1,14 +1,13 @@
 """Descomprimir cadena (hard).
 
-Source exercise: https://coding-challenges.dev/problems/descomprimir-cadena
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-descomprimir-cadena
 
-from python.platform_solutions import solve_challenge
+Dada una cadena codificada en formato k[s] donde k es un entero positivo y s es una cadena, descomprime y devuelve la cadena resultante. La cadena puede tener anidamiento. Ejemplo: "3[a]2[bc]" → "aaabcbc", "3[a2[c]]" → "accaccacc"."""
 
 
-def solve(*args):
-    """Solve the Descomprimir cadena challenge."""
-    return solve_challenge("descomprimir-cadena", *args)
+def descomprimir_cadena(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-descomprimir_cadena = solve
+
+solve = descomprimir_cadena

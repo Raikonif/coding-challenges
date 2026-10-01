@@ -1,14 +1,21 @@
 """Convertir a minúsculas (easy).
 
-Source exercise: https://coding-challenges.dev/problems/convertir-a-minusculas
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-convertir-a-minusculas
 
-from python.platform_solutions import solve_challenge
+Dado un string, devuélvelo convertido completamente a minúsculas.
+
+### Ejemplo
+
+```
+toLowerCase("HOLA")       → "hola"
+toLowerCase("TypeScript") → "typescript"
+toLowerCase("")           → ""
+```"""
 
 
-def solve(*args):
-    """Solve the Convertir a minúsculas challenge."""
-    return solve_challenge("convertir-a-minusculas", *args)
+def to_lower_case(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-to_lower_case = solve
+
+solve = to_lower_case

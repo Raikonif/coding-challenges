@@ -1,14 +1,20 @@
 """Resta de dos números (easy).
 
-Source exercise: https://coding-challenges.dev/problems/resta-dos-numeros
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-resta-dos-numeros
 
-from python.platform_solutions import solve_challenge
+Escribe una función que reciba dos números y devuelva el primero menos el segundo.
+
+### Ejemplo
+
+```
+subtract(10, 3) → 7
+subtract(0, 5) → -5
+```"""
 
 
-def solve(*args):
-    """Solve the Resta de dos números challenge."""
-    return solve_challenge("resta-dos-numeros", *args)
+def subtract(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-subtract = solve
+
+solve = subtract

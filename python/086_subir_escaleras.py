@@ -1,14 +1,22 @@
 """Subir escaleras (hard).
 
-Source exercise: https://coding-challenges.dev/problems/subir-escaleras
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-subir-escaleras
 
-from python.platform_solutions import solve_challenge
+Tienes una escalera de `n` peldaños. Puedes subir **1 o 2 peldaños** a la vez. Devuelve el número de formas distintas de llegar hasta arriba.
+
+### Ejemplo
+
+```
+climbStairs(1) → 1
+climbStairs(2) → 2  (1+1 ó 2)
+climbStairs(3) → 3  (1+1+1 ó 1+2 ó 2+1)
+climbStairs(4) → 5
+```"""
 
 
-def solve(*args):
-    """Solve the Subir escaleras challenge."""
-    return solve_challenge("subir-escaleras", *args)
+def climb_stairs(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-climb_stairs = solve
+
+solve = climb_stairs

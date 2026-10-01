@@ -1,14 +1,34 @@
 """Agrupar por longitud (medium).
 
-Source exercise: https://coding-challenges.dev/problems/agrupar-por-longitud
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-agrupar-por-longitud
 
-from python.platform_solutions import solve_challenge
+## Agrupar por longitud
+
+Dado un array de strings, retorna un objeto donde cada clave es la longitud de las palabras y el valor es un array con todas las palabras de esa longitud, en el mismo orden en que aparecen en el input.
+
+## Ejemplos
+
+```
+groupByLength(["sol", "mar", "luna", "rio", "nube"])
+// { 3: ["sol", "mar", "rio"], 4: ["luna", "nube"] }
+
+groupByLength(["a", "bb", "ccc", "dd"])
+// { 1: ["a"], 2: ["bb", "dd"], 3: ["ccc"] }
+
+groupByLength([])
+// {}
+```
+
+## Notas
+
+- Las claves del objeto deben ser números (la longitud).
+- Si el array está vacío, retorna un objeto vacío `{}`.
+- Mantén el orden de aparición dentro de cada grupo."""
 
 
-def solve(*args):
-    """Solve the Agrupar por longitud challenge."""
-    return solve_challenge("agrupar-por-longitud", *args)
+def group_by_length(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-group_by_length = solve
+
+solve = group_by_length

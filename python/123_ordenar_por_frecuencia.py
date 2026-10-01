@@ -1,14 +1,23 @@
 """Ordenar por frecuencia (medium).
 
-Source exercise: https://coding-challenges.dev/problems/ordenar-por-frecuencia
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-ordenar-por-frecuencia
 
-from python.platform_solutions import solve_challenge
+Dado un array de números, ordénalos por frecuencia de aparición de mayor a menor. Si dos elementos tienen la misma frecuencia, ordénalos de menor a mayor (ascendente por valor).
+
+**Ejemplo:**
+
+```ts
+ordenarPorFrecuencia([1, 1, 2, 2, 2, 3])
+// Output: [2, 2, 2, 1, 1, 3]
+// 2 aparece 3 veces → primero
+// 1 aparece 2 veces → segundo
+// 3 aparece 1 vez  → último
+```"""
 
 
-def solve(*args):
-    """Solve the Ordenar por frecuencia challenge."""
-    return solve_challenge("ordenar-por-frecuencia", *args)
+def sort_by_frequency(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sort_by_frequency = solve
+
+solve = sort_by_frequency

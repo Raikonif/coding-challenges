@@ -1,12 +1,19 @@
 /**
  * Contar propiedades (medium).
  * Source exercise: https://coding-challenges.dev/problems/contar-propiedades
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un objeto, devuelve el número de propiedades propias que tiene.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * countProperties({ a: 1, b: 2, c: 3 }) → 3
+ * countProperties({})                   → 0
+ * countProperties({ x: 1 })             → 1
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("contar-propiedades", args);
+export function countProperties(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const countProperties = solve;
+export const solve = countProperties;

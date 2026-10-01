@@ -1,12 +1,29 @@
 /**
  * Producto máximo de dos elementos (medium).
  * Source exercise: https://coding-challenges.dev/problems/producto-maximo-dos-elementos
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Producto máximo de dos elementos
+ *
+ * Dado un array de números enteros `nums`, encuentra el **producto máximo** que se puede obtener multiplicando cualquier par de elementos distintos (por índice) del array.
+ *
+ * Debes retornar ese producto máximo.
+ *
+ * ## Ejemplos
+ *
+ * ```ts
+ * maxProduct([1, 5, 3, 2])    // 15  (5 * 3)
+ * maxProduct([-5, -3, -1])    // 15  (-5 * -3)
+ * maxProduct([0, 5, 2])       // 10  (5 * 2)
+ * maxProduct([2, 2])          // 4
+ * ```
+ *
+ * ## Restricciones
+ *
+ * - El array tendrá al menos 2 elementos
+ * - Los elementos pueden ser negativos, cero o positivos
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("producto-maximo-dos-elementos", args);
+export function maxProduct(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const maxProduct = solve;
+export const solve = maxProduct;

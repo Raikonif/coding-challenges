@@ -1,14 +1,19 @@
 """Capitalizar palabras (medium).
 
-Source exercise: https://coding-challenges.dev/problems/capitalizar-palabras
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-capitalizar-palabras
 
-from python.platform_solutions import solve_challenge
+Dada una frase, devuelve la misma con la primera letra de cada palabra en mayúscula.
+
+### Ejemplo
+
+```
+capitalizeWords("hola mundo") → "Hola Mundo"
+```"""
 
 
-def solve(*args):
-    """Solve the Capitalizar palabras challenge."""
-    return solve_challenge("capitalizar-palabras", *args)
+def capitalize_words(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-capitalize_words = solve
+
+solve = capitalize_words

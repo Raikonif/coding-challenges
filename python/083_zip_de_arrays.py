@@ -1,14 +1,21 @@
 """Zip de arrays (medium).
 
-Source exercise: https://coding-challenges.dev/problems/zip-de-arrays
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-zip-de-arrays
 
-from python.platform_solutions import solve_challenge
+Dados dos arrays del mismo tamaño, combínalos en un nuevo array de pares, donde cada par contiene los elementos de la misma posición.
+
+### Ejemplo
+
+```
+zipArrays([1, 2, 3], [4, 5, 6])   → [[1,4],[2,5],[3,6]]
+zipArrays(["a","b"], ["c","d"])   → [["a","c"],["b","d"]]
+zipArrays([], [])                 → []
+```"""
 
 
-def solve(*args):
-    """Solve the Zip de arrays challenge."""
-    return solve_challenge("zip-de-arrays", *args)
+def zip_arrays(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-zip_arrays = solve
+
+solve = zip_arrays

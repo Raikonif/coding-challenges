@@ -1,12 +1,25 @@
 /**
  * Compuertas lógicas (hard).
  * Source exercise: https://coding-challenges.dev/problems/compuertas-logicas
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dados dos booleanos `a` y `b`, y el nombre de una compuerta lógica, aplica la operación y devuelve el resultado.
+ *
+ * Compuertas soportadas: `"AND"`, `"OR"`, `"XOR"`, `"NAND"`.
+ *
+ * - **XOR**: verdadero solo si los valores son distintos.
+ * - **NAND**: negación de AND.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * logicGate(true,  false, "AND")  → false
+ * logicGate(true,  false, "OR")   → true
+ * logicGate(true,  true,  "XOR")  → false
+ * logicGate(false, false, "NAND") → true
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("compuertas-logicas", args);
+export function logicGate(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const logicGate = solve;
+export const solve = logicGate;

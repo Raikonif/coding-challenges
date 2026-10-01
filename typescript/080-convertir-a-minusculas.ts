@@ -1,12 +1,19 @@
 /**
  * Convertir a minúsculas (easy).
  * Source exercise: https://coding-challenges.dev/problems/convertir-a-minusculas
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un string, devuélvelo convertido completamente a minúsculas.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * toLowerCase("HOLA")       → "hola"
+ * toLowerCase("TypeScript") → "typescript"
+ * toLowerCase("")           → ""
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("convertir-a-minusculas", args);
+export function toLowerCase(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const toLowerCase = solve;
+export const solve = toLowerCase;

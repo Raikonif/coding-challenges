@@ -1,12 +1,18 @@
 /**
  * ¿Es anagrama? (hard).
  * Source exercise: https://coding-challenges.dev/problems/es-anagrama
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve **true** si `s` y `t` son anagramas (mismas letras en distinto orden), **false** si no.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * isAnagram("roma", "amor") → true
+ * isAnagram("hola", "adios") → false
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("es-anagrama", args);
+export function isAnagram(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const isAnagram = solve;
+export const solve = isAnagram;

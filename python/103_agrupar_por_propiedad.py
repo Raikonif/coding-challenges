@@ -1,14 +1,37 @@
 """Agrupar por propiedad (medium).
 
-Source exercise: https://coding-challenges.dev/problems/agrupar-por-propiedad
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-agrupar-por-propiedad
 
-from python.platform_solutions import solve_challenge
+## Agrupar por propiedad
+
+Dado un array de objetos y el nombre de una propiedad (clave), devuelve un nuevo objeto donde cada clave es un valor distinto de esa propiedad, y cada valor es un array con los objetos que comparten ese valor.
+
+### Ejemplos
+
+```typescript
+const people = [
+  { name: "Ana", city: "Madrid" },
+  { name: "Luis", city: "Lima" },
+  { name: "Carlos", city: "Madrid" }
+];
+
+groupBy(people, "city")
+// {
+//   "Madrid": [{ name: "Ana", city: "Madrid" }, { name: "Carlos", city: "Madrid" }],
+//   "Lima": [{ name: "Luis", city: "Lima" }]
+// }
+```
+
+### Notas
+
+- Si el array esta vacio, devuelve un objeto vacio `{}`.
+- Todos los objetos tendran la propiedad indicada.
+- El valor de la propiedad siempre sera un string o numero."""
 
 
-def solve(*args):
-    """Solve the Agrupar por propiedad challenge."""
-    return solve_challenge("agrupar-por-propiedad", *args)
+def group_by(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-group_by = solve
+
+solve = group_by

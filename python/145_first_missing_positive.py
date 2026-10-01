@@ -1,14 +1,25 @@
 """Primer entero positivo faltante (hard).
 
-Source exercise: https://coding-challenges.dev/problems/first-missing-positive
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-first-missing-positive
 
-from python.platform_solutions import solve_challenge
+> Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+
+Dado un array de enteros, encuentra el primer entero positivo faltante en tiempo lineal y espacio constante. En otras palabras, encuentra el entero positivo más pequeño que no existe en el array. El array puede contener duplicados y números negativos.
+
+Por ejemplo, la entrada [3, 4, -1, 1] debería retornar 2. La entrada [1, 2, 0] debería retornar 3.
+
+Puedes modificar el array de entrada en el lugar (in-place).
+
+**Restricciones:**
+- Tiempo de ejecución: O(n)
+- Espacio adicional: O(1)
+
+*Problema propuesto por Stripe.*"""
 
 
-def solve(*args):
-    """Solve the Primer entero positivo faltante challenge."""
-    return solve_challenge("first-missing-positive", *args)
+def first_missing_positive(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-first_missing_positive = solve
+
+solve = first_missing_positive

@@ -1,12 +1,27 @@
 /**
  * Separar número en dígitos (easy).
  * Source exercise: https://coding-challenges.dev/problems/separar-en-digitos
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Separar número en dígitos
+ *
+ * Dado un número entero no negativo, retorna un array con cada uno de sus dígitos en orden de izquierda a derecha.
+ *
+ * ## Ejemplos
+ *
+ * ```
+ * getDigits(123)   // [1, 2, 3]
+ * getDigits(0)     // [0]
+ * getDigits(9087)  // [9, 0, 8, 7]
+ * getDigits(7)     // [7]
+ * ```
+ *
+ * ## Notas
+ *
+ * - El número siempre será un entero mayor o igual a `0`.
+ * - El número `0` retorna `[0]`.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("separar-en-digitos", args);
+export function getDigits(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const getDigits = solve;
+export const solve = getDigits;

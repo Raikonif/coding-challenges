@@ -1,14 +1,19 @@
 """Sistema de autocompletado (hard).
 
-Source exercise: https://coding-challenges.dev/problems/autocomplete-system
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-autocomplete-system
 
-from python.platform_solutions import solve_challenge
+> Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+
+Dado un string de consulta `s` y un conjunto de todos los strings posibles, devuelve todos los strings del conjunto que tengan a `s` como prefijo.
+
+Por ejemplo, dado el string de consulta `"de"` y el conjunto `["dog", "deer", "deal"]`, devuelve `["deer", "deal"]`.
+
+Bonus: ¿Puedes preprocesar el diccionario en una estructura de datos más eficiente para acelerar las consultas?"""
 
 
-def solve(*args):
-    """Solve the Sistema de autocompletado challenge."""
-    return solve_challenge("autocomplete-system", *args)
+def autocomplete_system(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-autocomplete_system = solve
+
+solve = autocomplete_system

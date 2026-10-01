@@ -1,14 +1,29 @@
 """Separar número en dígitos (easy).
 
-Source exercise: https://coding-challenges.dev/problems/separar-en-digitos
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-separar-en-digitos
 
-from python.platform_solutions import solve_challenge
+## Separar número en dígitos
+
+Dado un número entero no negativo, retorna un array con cada uno de sus dígitos en orden de izquierda a derecha.
+
+## Ejemplos
+
+```
+getDigits(123)   // [1, 2, 3]
+getDigits(0)     // [0]
+getDigits(9087)  // [9, 0, 8, 7]
+getDigits(7)     // [7]
+```
+
+## Notas
+
+- El número siempre será un entero mayor o igual a `0`.
+- El número `0` retorna `[0]`."""
 
 
-def solve(*args):
-    """Solve the Separar número en dígitos challenge."""
-    return solve_challenge("separar-en-digitos", *args)
+def get_digits(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-get_digits = solve
+
+solve = get_digits

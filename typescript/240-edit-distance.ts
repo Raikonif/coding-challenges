@@ -1,12 +1,26 @@
 /**
  * Distancia de edición (hard).
  * Source exercise: https://coding-challenges.dev/problems/edit-distance
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * > Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+ *
+ * Este ejercicio fue preguntado por **Google**.
+ *
+ * La distancia de edición entre dos strings es el número mínimo de operaciones necesarias para transformar uno en el otro. Las operaciones permitidas son:
+ *
+ * - **Inserción** de un carácter
+ * - **Eliminación** de un carácter
+ * - **Sustitución** de un carácter por otro
+ *
+ * Por ejemplo, la distancia de edición entre `"kitten"` y `"sitting"` es **3**:
+ * 1. Sustituir `"k"` por `"s"` → `"sitten"`
+ * 2. Sustituir `"e"` por `"i"` → `"sittin"`
+ * 3. Insertar `"g"` al final → `"sitting"`
+ *
+ * Dados dos strings, calcula y devuelve la distancia de edición entre ellos.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("edit-distance", args);
+export function editDistance(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const editDistance = solve;
+export const solve = editDistance;

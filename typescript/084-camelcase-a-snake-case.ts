@@ -1,12 +1,20 @@
 /**
  * CamelCase a snake_case (hard).
  * Source exercise: https://coding-challenges.dev/problems/camelcase-a-snake-case
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un string en formato `camelCase`, conviértelo a `snake_case` (palabras separadas por guión bajo y en minúsculas).
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * camelToSnake("camelCase")       → "camel_case"
+ * camelToSnake("myVariableName")  → "my_variable_name"
+ * camelToSnake("firstName")       → "first_name"
+ * camelToSnake("hola")            → "hola"
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("camelcase-a-snake-case", args);
+export function camelToSnake(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const camelToSnake = solve;
+export const solve = camelToSnake;

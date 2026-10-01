@@ -1,12 +1,19 @@
 /**
  * Búsqueda binaria (hard).
  * Source exercise: https://coding-challenges.dev/problems/busqueda-binaria
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de números **ordenado ascendentemente** y un valor objetivo, implementa la búsqueda binaria y devuelve el índice del objetivo. Si no existe, devuelve `-1`.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * binarySearch([1, 3, 5, 7, 9], 5)  → 2
+ * binarySearch([1, 3, 5, 7, 9], 6)  → -1
+ * binarySearch([2, 4, 6, 8], 8)     → 3
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("busqueda-binaria", args);
+export function binarySearch(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const binarySearch = solve;
+export const solve = binarySearch;

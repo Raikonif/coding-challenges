@@ -1,12 +1,11 @@
 /**
  * Todos los anagramas (hard).
  * Source exercise: https://coding-challenges.dev/problems/todos-los-anagramas
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dada una cadena s y un patrón p, retorna un array con todos los índices de inicio donde aparece un anagrama de p en s. Un anagrama es una reordenación de todas las letras del patrón. El resultado debe estar ordenado.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("todos-los-anagramas", args);
+export function todosLosAnagramas(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const todosLosAnagramas = solve;
+export const solve = todosLosAnagramas;

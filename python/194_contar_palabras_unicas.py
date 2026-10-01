@@ -1,14 +1,30 @@
 """Contar palabras únicas (easy).
 
-Source exercise: https://coding-challenges.dev/problems/contar-palabras-unicas
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-contar-palabras-unicas
 
-from python.platform_solutions import solve_challenge
+## Contar palabras únicas
+
+Dada una cadena de texto, retorna el número de palabras **únicas** que contiene. Las palabras se separan por espacios y la comparación no distingue mayúsculas de minúsculas.
+
+## Ejemplos
+
+```
+contarPalabrasUnicas("hola mundo hola") // 2
+contarPalabrasUnicas("TypeScript es genial es") // 3
+contarPalabrasUnicas("uno") // 1
+contarPalabrasUnicas("") // 0
+```
+
+## Notas
+
+- Ignora mayúsculas/minúsculas: `"Hola"` y `"hola"` cuentan como la misma palabra.
+- Una cadena vacía retorna `0`.
+- Puedes asumir que no hay signos de puntuación."""
 
 
-def solve(*args):
-    """Solve the Contar palabras únicas challenge."""
-    return solve_challenge("contar-palabras-unicas", *args)
+def count_unique_words(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-count_unique_words = solve
+
+solve = count_unique_words

@@ -1,14 +1,20 @@
 """Suma de dos números (easy).
 
-Source exercise: https://coding-challenges.dev/problems/suma-dos-numeros
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-suma-dos-numeros
 
-from python.platform_solutions import solve_challenge
+Escribe una función que reciba dos números y devuelva su suma.
+
+### Ejemplo
+
+```
+sum(2, 3) → 5
+sum(-1, 1) → 0
+```"""
 
 
-def solve(*args):
-    """Solve the Suma de dos números challenge."""
-    return solve_challenge("suma-dos-numeros", *args)
+def sum_two(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sum_two = solve
+
+solve = sum_two

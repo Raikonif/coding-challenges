@@ -1,14 +1,29 @@
 """Sumar valores de objeto (easy).
 
-Source exercise: https://coding-challenges.dev/problems/sumar-valores-de-objeto
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-sumar-valores-de-objeto
 
-from python.platform_solutions import solve_challenge
+## Descripción
+
+Dado un objeto cuyos valores son todos números, devuelve la **suma de todos sus valores**.
+
+## Ejemplos
+
+```typescript
+sumObjectValues({ a: 1, b: 2, c: 3 }) // 6
+sumObjectValues({ x: 5 })             // 5
+sumObjectValues({})                   // 0
+sumObjectValues({ a: -3, b: 7 })      // 4
+```
+
+## Notas
+
+- Si el objeto está vacío, devuelve `0`.
+- Los valores pueden ser negativos o decimales."""
 
 
-def solve(*args):
-    """Solve the Sumar valores de objeto challenge."""
-    return solve_challenge("sumar-valores-de-objeto", *args)
+def sum_object_values(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sum_object_values = solve
+
+solve = sum_object_values

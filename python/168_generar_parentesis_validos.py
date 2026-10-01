@@ -1,14 +1,29 @@
 """Generar paréntesis válidos (hard).
 
-Source exercise: https://coding-challenges.dev/problems/generar-parentesis-validos
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-generar-parentesis-validos
 
-from python.platform_solutions import solve_challenge
+## Generar paréntesis válidos
+
+Dado un número `n`, genera todas las combinaciones posibles de `n` pares de paréntesis bien formados. Devuelve el array de strings ordenado lexicográficamente.
+
+## Ejemplos
+
+```ts
+generateParentheses(1) // ["()"]
+generateParentheses(2) // ["(())", "()()"]
+generateParentheses(3) // ["((()))", "(()())", "(())()", "()(())", "()()()"]
+```
+
+## Notas
+
+- Una combinación es **válida** si cada paréntesis de apertura tiene su correspondiente paréntesis de cierre y están correctamente anidados.
+- El resultado debe estar ordenado **lexicográficamente** (orden alfabético).
+- `n` será un entero entre 1 y 5."""
 
 
-def solve(*args):
-    """Solve the Generar paréntesis válidos challenge."""
-    return solve_challenge("generar-parentesis-validos", *args)
+def generar_parentesis_validos(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-generar_parentesis_validos = solve
+
+solve = generar_parentesis_validos

@@ -1,14 +1,19 @@
 """Invertir string (easy).
 
-Source exercise: https://coding-challenges.dev/problems/invertir-string
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-invertir-string
 
-from python.platform_solutions import solve_challenge
+Crea una función que invierta una cadena de texto.
+
+### Ejemplo
+
+```
+reverseString("hola") → "aloh"
+```"""
 
 
-def solve(*args):
-    """Solve the Invertir string challenge."""
-    return solve_challenge("invertir-string", *args)
+def reverse_string(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-reverse_string = solve
+
+solve = reverse_string

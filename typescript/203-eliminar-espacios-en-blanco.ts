@@ -1,12 +1,31 @@
 /**
  * Eliminar espacios en blanco (easy).
  * Source exercise: https://coding-challenges.dev/problems/eliminar-espacios-en-blanco
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Eliminar espacios en blanco
+ *
+ * Dado un string, devuelve una nueva cadena sin los espacios en blanco al inicio y al final.
+ *
+ * No debes eliminar los espacios que están en el medio del string.
+ *
+ * ## Ejemplos
+ *
+ * ```
+ * trim("  hola mundo  ") // "hola mundo"
+ * trim("   typescript   ") // "typescript"
+ * trim("sin espacios") // "sin espacios"
+ * trim("   ") // ""
+ * ```
+ *
+ * ## Notas
+ *
+ * - No puedes usar el método `.trim()` de JavaScript.
+ * - Los espacios en el interior del string deben mantenerse intactos.
+ * - Un string vacío o solo con espacios debe devolver `""`.
+ *
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("eliminar-espacios-en-blanco", args);
+export function trim(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const trim = solve;
+export const solve = trim;

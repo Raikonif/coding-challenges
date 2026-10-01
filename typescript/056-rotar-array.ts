@@ -1,12 +1,18 @@
 /**
  * Rotar array (hard).
  * Source exercise: https://coding-challenges.dev/problems/rotar-array
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve un nuevo array rotado `k` posiciones a la derecha. Los últimos `k` elementos pasan al inicio.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * rotateArray([1, 2, 3, 4, 5], 2) → [4, 5, 1, 2, 3]
+ * rotateArray([1, 2], 3) → [2, 1]
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("rotar-array", args);
+export function rotateArray(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const rotateArray = solve;
+export const solve = rotateArray;

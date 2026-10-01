@@ -1,14 +1,24 @@
 """Comprimir string (hard).
 
-Source exercise: https://coding-challenges.dev/problems/comprimir-string
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-comprimir-string
 
-from python.platform_solutions import solve_challenge
+Implementa una compresión básica de strings usando el conteo de caracteres consecutivos repetidos (Run-Length Encoding).
+
+Dado un string, devuelve una nueva cadena donde cada grupo de caracteres consecutivos iguales se representa como `caracter + cantidad`.
+
+### Ejemplo
+
+```
+compressString("aaabbc")   → "a3b2c1"
+compressString("aabbcc")   → "a2b2c2"
+compressString("a")        → "a1"
+compressString("aabcccdd") → "a2b1c3d2"
+```"""
 
 
-def solve(*args):
-    """Solve the Comprimir string challenge."""
-    return solve_challenge("comprimir-string", *args)
+def compress_string(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-compress_string = solve
+
+solve = compress_string

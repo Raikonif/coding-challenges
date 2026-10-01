@@ -1,14 +1,31 @@
 """Separar camelCase en palabras (easy).
 
-Source exercise: https://coding-challenges.dev/problems/separar-camelcase-en-palabras
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-separar-camelcase-en-palabras
 
-from python.platform_solutions import solve_challenge
+## Separar camelCase en palabras
+
+Dado un string en formato `camelCase`, devuelve un array con cada palabra en minúsculas separada.
+
+### Ejemplos
+
+```ts
+splitCamelCase("helloWorld")        // ["hello", "world"]
+splitCamelCase("myVariableName")    // ["my", "variable", "name"]
+splitCamelCase("getValue")          // ["get", "value"]
+splitCamelCase("firstName")         // ["first", "name"]
+```
+
+### Notas
+
+- La primera palabra también empieza en minúscula.
+- Cada letra mayúscula indica el inicio de una nueva palabra.
+- El resultado debe contener todas las palabras en minúsculas.
+- El string de entrada siempre tendrá al menos un carácter."""
 
 
-def solve(*args):
-    """Solve the Separar camelCase en palabras challenge."""
-    return solve_challenge("separar-camelcase-en-palabras", *args)
+def split_camel_case(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-split_camel_case = solve
+
+solve = split_camel_case

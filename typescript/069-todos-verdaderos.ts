@@ -1,12 +1,19 @@
 /**
  * Todos verdaderos (medium).
  * Source exercise: https://coding-challenges.dev/problems/todos-verdaderos
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de booleanos, devuelve `true` si **todos** los elementos son `true`. Un array vacío devuelve `true`.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * allTrue([true, true, true])  → true
+ * allTrue([true, false, true]) → false
+ * allTrue([])                  → true
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("todos-verdaderos", args);
+export function allTrue(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const allTrue = solve;
+export const solve = allTrue;

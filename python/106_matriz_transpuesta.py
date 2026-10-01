@@ -1,14 +1,34 @@
 """Matriz transpuesta (hard).
 
-Source exercise: https://coding-challenges.dev/problems/matriz-transpuesta
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-matriz-transpuesta
 
-from python.platform_solutions import solve_challenge
+## Matriz transpuesta
+
+Dada una matriz (array de arrays) de numeros, devuelve su **transpuesta**. La transpuesta de una matriz intercambia filas por columnas: el elemento en la fila `i`, columna `j` pasa a la fila `j`, columna `i`.
+
+### Ejemplos
+
+```typescript
+transpose([[1, 2, 3], [4, 5, 6]])
+// [[1, 4], [2, 5], [3, 6]]
+
+transpose([[1]])
+// [[1]]
+
+transpose([[1, 2], [3, 4], [5, 6]])
+// [[1, 3, 5], [2, 4, 6]]
+```
+
+### Notas
+
+- La matriz siempre sera rectangular (todas las filas tienen el mismo largo).
+- La matriz tendra al menos 1 fila y 1 columna.
+- Los valores pueden ser positivos, negativos o cero."""
 
 
-def solve(*args):
-    """Solve the Matriz transpuesta challenge."""
-    return solve_challenge("matriz-transpuesta", *args)
+def matriz_transpuesta(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-matriz_transpuesta = solve
+
+solve = matriz_transpuesta

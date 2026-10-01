@@ -1,14 +1,38 @@
 """Agrupar por primera letra (medium).
 
-Source exercise: https://coding-challenges.dev/problems/agrupar-por-primera-letra
-The full prompt and examples are recorded in catalog/coding-challenges.json.
+Source exercise: https://coding-challenges.dev/problems/python-agrupar-por-primera-letra
+
+## Agrupar por primera letra
+
+Dada una lista de palabras, devuelve un objeto donde cada clave es una letra del abecedario y su valor es un array con todas las palabras que comienzan con esa letra.
+
+- Las claves deben ser **letras minúsculas**.
+- Solo incluir las letras que tengan al menos una palabra.
+- Las palabras dentro de cada grupo deben aparecer en el **mismo orden** en que aparecen en el array original.
+
+## Ejemplos
+
+```
+groupByFirstLetter(["apple", "banana", "avocado", "blueberry", "cherry"])
+→ { a: ["apple", "avocado"], b: ["banana", "blueberry"], c: ["cherry"] }
+
+groupByFirstLetter(["Zebra", "zero", "Zoo"])
+→ { z: ["Zebra", "zero", "Zoo"] }
+
+groupByFirstLetter([])
+→ {}
+```
+
+## Notas
+
+- Considerar solo la primera letra de cada palabra, convertida a minúscula para la clave.
+- La palabra en sí se guarda **tal cual** (sin modificar su capitalización).
 """
 
-from python.platform_solutions import solve_challenge
+
+def group_by_first_letter(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
 
-def solve(*args):
-    """Solve the Agrupar por primera letra challenge."""
-    return solve_challenge("agrupar-por-primera-letra", *args)
-
-group_by_first_letter = solve
+solve = group_by_first_letter

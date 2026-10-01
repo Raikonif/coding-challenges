@@ -1,12 +1,48 @@
 /**
  * Recorrido en Espiral de Matriz (master).
  * Source exercise: https://coding-challenges.dev/problems/recorrido-en-espiral
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Recorrido en Espiral de Matriz
+ *
+ * Dada una matriz 2D de enteros, escribe una función `recorridoEnEspiral` que devuelva todos sus elementos en orden espiral (de afuera hacia adentro, comenzando desde la esquina superior izquierda en sentido horario).
+ *
+ * El recorrido sigue este patrón:
+ * 1. Fila superior (izquierda a derecha)
+ * 2. Columna derecha (arriba a abajo)
+ * 3. Fila inferior (derecha a izquierda)
+ * 4. Columna izquierda (abajo a arriba)
+ * 5. Repetir para el siguiente anillo interior
+ *
+ * ## Ejemplos
+ *
+ * ```typescript
+ * recorridoEnEspiral([
+ *   [1, 2, 3],
+ *   [4, 5, 6],
+ *   [7, 8, 9]
+ * ])
+ * // [1, 2, 3, 6, 9, 8, 7, 4, 5]
+ *
+ * recorridoEnEspiral([
+ *   [1, 2, 3, 4],
+ *   [5, 6, 7, 8],
+ *   [9, 10, 11, 12]
+ * ])
+ * // [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
+ *
+ * recorridoEnEspiral([[1]])
+ * // [1]
+ * ```
+ *
+ * ## Restricciones
+ *
+ * - La matriz tiene al menos 1 fila y 1 columna.
+ * - Todas las filas tienen la misma longitud.
+ * - Los valores son enteros (pueden ser negativos).
+ * - No uses librerías externas.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("recorrido-en-espiral", args);
+export function recorridoEnEspiral(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const recorridoEnEspiral = solve;
+export const solve = recorridoEnEspiral;

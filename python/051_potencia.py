@@ -1,14 +1,20 @@
 """Potencia (medium).
 
-Source exercise: https://coding-challenges.dev/problems/potencia
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-potencia
 
-from python.platform_solutions import solve_challenge
+Calcula `base` elevado a `exp` (entero no negativo). Por ejemplo `2^3 = 8`.
+
+### Ejemplo
+
+```
+power(2, 3) → 8
+power(5, 0) → 1
+```"""
 
 
-def solve(*args):
-    """Solve the Potencia challenge."""
-    return solve_challenge("potencia", *args)
+def power(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-power = solve
+
+solve = power

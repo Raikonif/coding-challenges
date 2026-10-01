@@ -1,14 +1,21 @@
 """Contar propiedades (medium).
 
-Source exercise: https://coding-challenges.dev/problems/contar-propiedades
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-contar-propiedades
 
-from python.platform_solutions import solve_challenge
+Dado un objeto, devuelve el número de propiedades propias que tiene.
+
+### Ejemplo
+
+```
+countProperties({ a: 1, b: 2, c: 3 }) → 3
+countProperties({})                   → 0
+countProperties({ x: 1 })             → 1
+```"""
 
 
-def solve(*args):
-    """Solve the Contar propiedades challenge."""
-    return solve_challenge("contar-propiedades", *args)
+def count_properties(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-count_properties = solve
+
+solve = count_properties

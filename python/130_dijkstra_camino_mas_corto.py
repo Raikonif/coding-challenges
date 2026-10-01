@@ -1,14 +1,13 @@
 """Dijkstra: camino más corto (master).
 
-Source exercise: https://coding-challenges.dev/problems/dijkstra-camino-mas-corto
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-dijkstra-camino-mas-corto
 
-from python.platform_solutions import solve_challenge
+Dado un grafo dirigido ponderado representado como lista de adyacencia y un nodo origen, calcula la distancia mínima desde el origen a todos los demás nodos usando el algoritmo de Dijkstra. El grafo se representa como graph[i] = [[vecino, peso], ...]. Si un nodo no es alcanzable, su distancia es -1."""
 
 
-def solve(*args):
-    """Solve the Dijkstra: camino más corto challenge."""
-    return solve_challenge("dijkstra-camino-mas-corto", *args)
+def dijkstra_camino_mas_corto(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-dijkstra_camino_mas_corto = solve
+
+solve = dijkstra_camino_mas_corto

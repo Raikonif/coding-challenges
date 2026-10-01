@@ -1,14 +1,30 @@
 """Suma de dígitos (medium).
 
-Source exercise: https://coding-challenges.dev/problems/suma-de-digitos
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-suma-de-digitos
 
-from python.platform_solutions import solve_challenge
+## Suma de dígitos
+
+Dado un número entero no negativo, devuelve la suma de todos sus dígitos.
+
+## Ejemplos
+
+```
+sumDigits(123)   // 1 + 2 + 3 = 6
+sumDigits(0)     // 0
+sumDigits(9)     // 9
+sumDigits(999)   // 9 + 9 + 9 = 27
+sumDigits(1234)  // 1 + 2 + 3 + 4 = 10
+```
+
+## Notas
+
+- El número siempre será un entero no negativo.
+- Para el número `0`, la suma de sus dígitos es `0`."""
 
 
-def solve(*args):
-    """Solve the Suma de dígitos challenge."""
-    return solve_challenge("suma-de-digitos", *args)
+def sum_digits(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sum_digits = solve
+
+solve = sum_digits

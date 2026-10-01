@@ -1,12 +1,18 @@
 /**
  * Último elemento (easy).
  * Source exercise: https://coding-challenges.dev/problems/ultimo-elemento
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve el último elemento de un array de números, o `undefined` si está vacío.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * last([1, 2, 3]) → 3
+ * last([]) → undefined
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("ultimo-elemento", args);
+export function last(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const last = solve;
+export const solve = last;

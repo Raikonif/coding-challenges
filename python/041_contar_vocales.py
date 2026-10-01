@@ -1,14 +1,21 @@
 """Contar vocales (medium).
 
-Source exercise: https://coding-challenges.dev/problems/contar-vocales
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-contar-vocales
 
-from python.platform_solutions import solve_challenge
+Escribe una función que reciba un string y devuelva el número de vocales (a, e, i, o, u).
+Considera solo minúsculas; si quieres, puedes normalizar el string antes.
+
+### Ejemplo
+
+```
+countVowels("hola") → 2
+countVowels("aeiou") → 5
+```"""
 
 
-def solve(*args):
-    """Solve the Contar vocales challenge."""
-    return solve_challenge("contar-vocales", *args)
+def count_vowels(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-count_vowels = solve
+
+solve = count_vowels

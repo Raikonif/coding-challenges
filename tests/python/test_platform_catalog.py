@@ -32,19 +32,28 @@ def expected_value(value):
 
 
 class PlatformCatalogPythonTests(unittest.TestCase):
-    def test_all_catalog_exercises_and_examples(self):
-        self.assertEqual(len(CATALOG), 230)
-        for exercise in CATALOG:
-            module = load_exercise(exercise["number"], exercise["id"])
-            self.assertTrue(callable(module.solve), exercise["id"])
-            with self.subTest(exercise=exercise["id"]):
-                if exercise["cases"]:
-                    for case in exercise["cases"]:
-                        with self.subTest(args=case["args"]):
-                            actual = module.solve(*case["args"])
-                            self.assertEqual(actual, expected_value(case["expected"]))
-                elif exercise["smokeArgs"]:
-                    module.solve(*exercise["smokeArgs"])
+    pass
+
+
+def make_exercise_test(exercise):
+    def test_exercise(self):
+        module = load_exercise(exercise["number"], exercise["id"])
+        exercise_function = getattr(module, exercise["pythonFunction"])
+        self.assertTrue(callable(exercise_function), exercise["id"])
+        if exercise["cases"]:
+            for case in exercise["cases"]:
+                with self.subTest(args=case["args"]):
+                    actual = exercise_function(*case["args"])
+                    self.assertEqual(actual, expected_value(case["expected"]))
+        else:
+            exercise_function(*exercise["smokeArgs"])
+
+    return test_exercise
+
+
+for exercise in CATALOG:
+    test_name = f"test_{exercise['number']:03d}_{exercise['id'].replace('-', '_')}"
+    setattr(PlatformCatalogPythonTests, test_name, make_exercise_test(exercise))
 
 
 if __name__ == "__main__":

@@ -1,14 +1,21 @@
 """Número absoluto (easy).
 
-Source exercise: https://coding-challenges.dev/problems/numero-absoluto
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-numero-absoluto
 
-from python.platform_solutions import solve_challenge
+Dado un número, devuelve su valor absoluto.
+
+### Ejemplo
+
+```
+absoluteValue(5)   → 5
+absoluteValue(-3)  → 3
+absoluteValue(0)   → 0
+```"""
 
 
-def solve(*args):
-    """Solve the Número absoluto challenge."""
-    return solve_challenge("numero-absoluto", *args)
+def absolute_value(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-absolute_value = solve
+
+solve = absolute_value

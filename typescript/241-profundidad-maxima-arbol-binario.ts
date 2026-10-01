@@ -1,12 +1,42 @@
 /**
  * Profundidad máxima de árbol binario (medium).
  * Source exercise: https://coding-challenges.dev/problems/profundidad-maxima-arbol-binario
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ *
+ * ## Profundidad máxima de árbol binario
+ *
+ * Dado un árbol binario representado como nodos enlazados, implementa una función que calcule su **profundidad máxima** (la cantidad de nodos a lo largo del camino más largo desde la raíz hasta una hoja).
+ *
+ * El árbol se representa con objetos que tienen la siguiente estructura:
+ *
+ * ```typescript
+ * interface TreeNode {
+ *   value: number;
+ *   left: TreeNode | null;
+ *   right: TreeNode | null;
+ * }
+ * ```
+ *
+ * ### Ejemplo
+ *
+ * ```
+ *     1
+ *    / \
+ *   2   3
+ *  / \
+ * 4   5
+ * ```
+ *
+ * La profundidad máxima es `3` (camino: 1 → 2 → 4 o 1 → 2 → 5).
+ *
+ * ### Casos especiales
+ *
+ * - Si el árbol está vacío (`null`), la profundidad es `0`.
+ * - Un árbol con solo la raíz tiene profundidad `1`.
+ *
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("profundidad-maxima-arbol-binario", args);
+export function profundidadMaximaArbolBinario(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const profundidadMaximaArbolBinario = solve;
+export const solve = profundidadMaximaArbolBinario;

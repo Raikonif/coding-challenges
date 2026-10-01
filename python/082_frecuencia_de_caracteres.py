@@ -1,14 +1,21 @@
 """Frecuencia de caracteres (medium).
 
-Source exercise: https://coding-challenges.dev/problems/frecuencia-de-caracteres
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-frecuencia-de-caracteres
 
-from python.platform_solutions import solve_challenge
+Dado un string, devuelve un objeto donde cada clave es un carácter y su valor es la cantidad de veces que aparece en el string.
+
+### Ejemplo
+
+```
+charFrequency("aab")  → { a: 2, b: 1 }
+charFrequency("abc")  → { a: 1, b: 1, c: 1 }
+charFrequency("")     → {}
+```"""
 
 
-def solve(*args):
-    """Solve the Frecuencia de caracteres challenge."""
-    return solve_challenge("frecuencia-de-caracteres", *args)
+def char_frequency(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-char_frequency = solve
+
+solve = char_frequency

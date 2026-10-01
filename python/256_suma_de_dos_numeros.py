@@ -1,14 +1,21 @@
 """Suma de dos números (hard).
 
-Source exercise: https://coding-challenges.dev/problems/suma-de-dos-numeros
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/null
 
-from python.platform_solutions import solve_challenge
+> Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+
+Dada una lista de números enteros, determina si existe algún par de elementos cuya suma sea igual a k.
+
+Por ejemplo, dada la lista [10, 15, 3, 7] y k = 17, devuelve true ya que 10 + 7 = 17.
+
+Dada la lista [1, 2, 3, 4] y k = 10, devuelve false ya que ningún par suma exactamente 10.
+
+Bonus: ¿Puedes resolverlo en un solo recorrido usando un hash set?"""
 
 
-def solve(*args):
-    """Solve the Suma de dos números challenge."""
-    return solve_challenge("suma-de-dos-numeros", *args)
+def suma_de_dos_numeros(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-suma_de_dos_numeros = solve
+
+solve = suma_de_dos_numeros

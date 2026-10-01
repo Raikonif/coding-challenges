@@ -1,12 +1,19 @@
 /**
  * Contar vocales (medium).
  * Source exercise: https://coding-challenges.dev/problems/contar-vocales
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Escribe una función que reciba un string y devuelva el número de vocales (a, e, i, o, u).
+ * Considera solo minúsculas; si quieres, puedes normalizar el string antes.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * countVowels("hola") → 2
+ * countVowels("aeiou") → 5
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("contar-vocales", args);
+export function countVowels(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const countVowels = solve;
+export const solve = countVowels;

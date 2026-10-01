@@ -1,12 +1,20 @@
 /**
  * Fibonacci (medium).
  * Source exercise: https://coding-challenges.dev/problems/fibonacci
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve el n-ésimo número de la secuencia de Fibonacci (0-indexed).
+ *
+ * - `fib(0) = 0`, `fib(1) = 1`
+ * - `fib(n) = fib(n-1) + fib(n-2)`
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * fibonacci(6) → 8
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("fibonacci", args);
+export function fibonacci(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const fibonacci = solve;
+export const solve = fibonacci;

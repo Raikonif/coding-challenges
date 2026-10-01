@@ -1,14 +1,19 @@
 """Suma con reduce (medium).
 
-Source exercise: https://coding-challenges.dev/problems/suma-reduce
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/null
 
-from python.platform_solutions import solve_challenge
+Implementa una función que sume todos los elementos de un array usando el método **reduce**.
+
+### Ejemplo
+
+```
+sumReduce([1, 2, 3, 4]) → 10
+```"""
 
 
-def solve(*args):
-    """Solve the Suma con reduce challenge."""
-    return solve_challenge("suma-reduce", *args)
+def sum_reduce(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sum_reduce = solve
+
+solve = sum_reduce

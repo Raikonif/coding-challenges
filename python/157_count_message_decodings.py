@@ -1,14 +1,21 @@
 """Formas de decodificar un mensaje (hard).
 
-Source exercise: https://coding-challenges.dev/problems/count-message-decodings
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-count-message-decodings
 
-from python.platform_solutions import solve_challenge
+> Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+
+Dado el mapeo a = 1, b = 2, ... z = 26, y un mensaje codificado como string de dígitos, cuenta el número de formas en que puede ser decodificado.
+
+Por ejemplo, el mensaje "111" daría 3, ya que podría decodificarse como "aaa", "ka" y "ak".
+
+Puedes asumir que los mensajes son decodificables. Por ejemplo, "001" no está permitido.
+
+Bonus: ¿Puedes resolverlo en tiempo O(n) con espacio O(1)?"""
 
 
-def solve(*args):
-    """Solve the Formas de decodificar un mensaje challenge."""
-    return solve_challenge("count-message-decodings", *args)
+def count_message_decodings(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-count_message_decodings = solve
+
+solve = count_message_decodings

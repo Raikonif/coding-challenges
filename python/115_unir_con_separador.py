@@ -1,14 +1,31 @@
 """Unir con separador (easy).
 
-Source exercise: https://coding-challenges.dev/problems/unir-con-separador
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-unir-con-separador
 
-from python.platform_solutions import solve_challenge
+## Unir con separador
+
+Dado un array de strings y un separador, devuelve un único string con todos los elementos unidos por ese separador.
+
+## Ejemplos
+
+```
+joinWithSeparator(["hola", "mundo"], " ")   // "hola mundo"
+joinWithSeparator(["a", "b", "c"], "-")     // "a-b-c"
+joinWithSeparator(["uno"], ",")             // "uno"
+joinWithSeparator([], ",")                  // ""
+joinWithSeparator(["x", "y"], "")           // "xy"
+```
+
+## Notas
+
+- Si el array está vacío, devuelve un string vacío `""`.
+- El separador puede ser cualquier string, incluyendo el string vacío.
+- No añadas el separador al principio ni al final."""
 
 
-def solve(*args):
-    """Solve the Unir con separador challenge."""
-    return solve_challenge("unir-con-separador", *args)
+def join_with_separator(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-join_with_separator = solve
+
+solve = join_with_separator

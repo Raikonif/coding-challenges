@@ -1,12 +1,18 @@
 /**
  * Potencia (medium).
  * Source exercise: https://coding-challenges.dev/problems/potencia
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Calcula `base` elevado a `exp` (entero no negativo). Por ejemplo `2^3 = 8`.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * power(2, 3) → 8
+ * power(5, 0) → 1
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("potencia", args);
+export function power(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const power = solve;
+export const solve = power;

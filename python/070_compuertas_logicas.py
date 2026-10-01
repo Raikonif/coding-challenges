@@ -1,14 +1,27 @@
 """Compuertas lógicas (hard).
 
-Source exercise: https://coding-challenges.dev/problems/compuertas-logicas
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-compuertas-logicas
 
-from python.platform_solutions import solve_challenge
+Dados dos booleanos `a` y `b`, y el nombre de una compuerta lógica, aplica la operación y devuelve el resultado.
+
+Compuertas soportadas: `"AND"`, `"OR"`, `"XOR"`, `"NAND"`.
+
+- **XOR**: verdadero solo si los valores son distintos.
+- **NAND**: negación de AND.
+
+### Ejemplo
+
+```
+logicGate(true,  false, "AND")  → false
+logicGate(true,  false, "OR")   → true
+logicGate(true,  true,  "XOR")  → false
+logicGate(false, false, "NAND") → true
+```"""
 
 
-def solve(*args):
-    """Solve the Compuertas lógicas challenge."""
-    return solve_challenge("compuertas-logicas", *args)
+def logic_gate(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-logic_gate = solve
+
+solve = logic_gate

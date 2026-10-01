@@ -1,14 +1,51 @@
 """Código Morse (master).
 
-Source exercise: https://coding-challenges.dev/problems/codigo-morse
-The full prompt and examples are recorded in catalog/coding-challenges.json.
+Source exercise: https://coding-challenges.dev/problems/python-codigo-morse
+
+
+## Código Morse
+
+Implementa una función que convierta un texto en su representación en **código Morse**.
+
+### Reglas
+
+- Cada letra se convierte a su código Morse usando el alfabeto estándar internacional.
+- Las letras dentro de una palabra se separan con un espacio simple (`" "`).
+- Las palabras se separan con tres espacios (`"   "`).
+- El texto de entrada puede contener letras (mayúsculas o minúsculas) y espacios.
+- Ignora cualquier carácter que no sea letra o espacio.
+
+### Tabla Morse (referencia parcial)
+
+| Letra | Código | Letra | Código |
+|-------|--------|-------|--------|
+| A | `.-`   | N | `-.`   |
+| B | `-...` | O | `---`  |
+| C | `-.-.` | P | `.--.` |
+| D | `-..`  | Q | `--.-` |
+| E | `.`    | R | `.-.`  |
+| F | `..-.` | S | `...`  |
+| G | `--.`  | T | `-`    |
+| H | `....` | U | `..-`  |
+| I | `..`   | V | `...-` |
+| J | `.---` | W | `.--`  |
+| K | `-.-`  | X | `-..-` |
+| L | `.-..` | Y | `-.--` |
+| M | `--`   | Z | `--..` |
+
+### Ejemplo
+
+```typescript
+codigoMorse("SOS")   // "... --- ..."
+codigoMorse("Hola Mundo") // ".... --- .-.. .-   -- ..- -. -.. ---"
+codigoMorse("Hi")    // ".... .."
+```
 """
 
-from python.platform_solutions import solve_challenge
+
+def codigo_morse(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
 
-def solve(*args):
-    """Solve the Código Morse challenge."""
-    return solve_challenge("codigo-morse", *args)
-
-codigo_morse = solve
+solve = codigo_morse

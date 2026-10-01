@@ -1,14 +1,21 @@
 """Factorial (medium).
 
-Source exercise: https://coding-challenges.dev/problems/factorial
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-factorial
 
-from python.platform_solutions import solve_challenge
+Implementa la función factorial. El factorial de `n` (`n!`) es el producto de todos los enteros desde 1 hasta `n`.
+Por definición, `0! = 1`.
+
+### Ejemplo
+
+```
+factorial(5) → 120
+factorial(0) → 1
+```"""
 
 
-def solve(*args):
-    """Solve the Factorial challenge."""
-    return solve_challenge("factorial", *args)
+def factorial(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-factorial = solve
+
+solve = factorial

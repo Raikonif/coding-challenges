@@ -1,14 +1,21 @@
 """Filtrar y transformar (easy).
 
-Source exercise: https://coding-challenges.dev/problems/filtrar-y-transformar
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-filtrar-y-transformar
 
-from python.platform_solutions import solve_challenge
+La siguiente función usa bucles `for` y variables intermedias para filtrar números pares y duplicarlos. Refactorízala usando **encadenamiento de métodos** (`.filter()` + `.map()`) en una sola expresión.
+
+## Ejemplo
+
+```typescript
+paresDobles([1, 2, 3, 4, 5, 6]) // [4, 8, 12]
+paresDobles([1, 3, 5])          // []
+paresDobles([2])                 // [4]
+```"""
 
 
-def solve(*args):
-    """Solve the Filtrar y transformar challenge."""
-    return solve_challenge("filtrar-y-transformar", *args)
+def pares_dobles(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-pares_dobles = solve
+
+solve = pares_dobles

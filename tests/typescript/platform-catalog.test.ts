@@ -9,6 +9,7 @@ type CatalogExercise = {
   number: number;
   id: string;
   title: string;
+  typescriptFunction: string;
   cases: ExampleCase[];
   smokeArgs: unknown[];
 };
@@ -31,16 +32,16 @@ for (const exercise of catalog) {
   const number = String(exercise.number).padStart(3, "0");
   const modulePath = resolve(root, "typescript", `${number}-${exercise.id}.ts`);
   const module = await import(pathToFileURL(modulePath).href);
-  const solve = module.solve as (...args: any[]) => unknown;
+  const exerciseFunction = module[exercise.typescriptFunction] as (...args: any[]) => unknown;
 
   test(`${number} ${exercise.title}`, () => {
-    assert.equal(typeof solve, "function");
+    assert.equal(typeof exerciseFunction, "function");
     if (exercise.cases.length) {
       for (const example of exercise.cases) {
-        assert.deepEqual(solve(...expectedValue(example.args)), expectedValue(example.expected), JSON.stringify(example.args));
+        assert.deepEqual(exerciseFunction(...expectedValue(example.args)), expectedValue(example.expected), JSON.stringify(example.args));
       }
-    } else if (exercise.smokeArgs.length) {
-      solve(...exercise.smokeArgs);
+    } else {
+      exerciseFunction(...expectedValue(exercise.smokeArgs));
     }
   });
 }

@@ -1,14 +1,21 @@
 """Longitud de la última palabra (hard).
 
-Source exercise: https://coding-challenges.dev/problems/longitud-ultima-palabra
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-longitud-ultima-palabra
 
-from python.platform_solutions import solve_challenge
+Dado un string con palabras separadas por espacios, devuelve la longitud de la última palabra.
+Ignora espacios al final del string.
+
+### Ejemplo
+
+```
+lengthOfLastWord("hello world") → 5
+lengthOfLastWord("  fly me   to   the moon  ") → 4
+```"""
 
 
-def solve(*args):
-    """Solve the Longitud de la última palabra challenge."""
-    return solve_challenge("longitud-ultima-palabra", *args)
+def longitud_ultima_palabra(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-longitud_ultima_palabra = solve
+
+solve = longitud_ultima_palabra

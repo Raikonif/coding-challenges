@@ -1,12 +1,28 @@
 /**
  * Segundo mayor elemento (medium).
  * Source exercise: https://coding-challenges.dev/problems/typescript-segundo-mayor-elemento
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Segundo mayor elemento
+ *
+ * Dado un array de enteros, devuelve el **segundo mayor valor distinto** del array. Si no existe (el array tiene menos de 2 valores distintos), devuelve `-1`.
+ *
+ * ### Ejemplos
+ *
+ * ```typescript
+ * secondLargest([3, 1, 4, 1, 5, 9, 2, 6]) // 6
+ * secondLargest([5, 5, 5])                 // -1
+ * secondLargest([1, 2])                    // 1
+ * secondLargest([10])                      // -1
+ * ```
+ *
+ * ### Restricciones
+ *
+ * - Los valores pueden ser negativos.
+ * - Si hay duplicados del mayor, no cuentan como segundo mayor.
+ * - Devuelve `-1` si no hay segundo mayor distinto.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("segundo-mayor-elemento", args);
+export function secondLargest(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const secondLargest = solve;
+export const solve = secondLargest;

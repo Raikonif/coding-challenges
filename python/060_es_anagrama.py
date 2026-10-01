@@ -1,14 +1,20 @@
 """¿Es anagrama? (hard).
 
-Source exercise: https://coding-challenges.dev/problems/es-anagrama
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-es-anagrama
 
-from python.platform_solutions import solve_challenge
+Devuelve **true** si `s` y `t` son anagramas (mismas letras en distinto orden), **false** si no.
+
+### Ejemplo
+
+```
+isAnagram("roma", "amor") → true
+isAnagram("hola", "adios") → false
+```"""
 
 
-def solve(*args):
-    """Solve the ¿Es anagrama? challenge."""
-    return solve_challenge("es-anagrama", *args)
+def is_anagram(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-is_anagram = solve
+
+solve = is_anagram

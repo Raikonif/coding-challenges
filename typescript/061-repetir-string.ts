@@ -1,12 +1,18 @@
 /**
  * Repetir string (easy).
  * Source exercise: https://coding-challenges.dev/problems/repetir-string
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve el string `s` repetido `n` veces. Si `n` es 0, devuelve string vacío.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * repeatString("ab", 3) → "ababab"
+ * repeatString("x", 0) → ""
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("repetir-string", args);
+export function repeatString(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const repeatString = solve;
+export const solve = repeatString;

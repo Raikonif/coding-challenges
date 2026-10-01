@@ -1,14 +1,20 @@
 """Primer elemento (easy).
 
-Source exercise: https://coding-challenges.dev/problems/primer-elemento
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-primer-elemento
 
-from python.platform_solutions import solve_challenge
+Devuelve el primer elemento de un array de números, o `undefined` si está vacío.
+
+### Ejemplo
+
+```
+first([10, 20, 30]) → 10
+first([]) → undefined
+```"""
 
 
-def solve(*args):
-    """Solve the Primer elemento challenge."""
-    return solve_challenge("primer-elemento", *args)
+def first(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-first = solve
+
+solve = first

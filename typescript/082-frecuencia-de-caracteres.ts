@@ -1,12 +1,19 @@
 /**
  * Frecuencia de caracteres (medium).
  * Source exercise: https://coding-challenges.dev/problems/frecuencia-de-caracteres
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un string, devuelve un objeto donde cada clave es un carácter y su valor es la cantidad de veces que aparece en el string.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * charFrequency("aab")  → { a: 2, b: 1 }
+ * charFrequency("abc")  → { a: 1, b: 1, c: 1 }
+ * charFrequency("")     → {}
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("frecuencia-de-caracteres", args);
+export function charFrequency(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const charFrequency = solve;
+export const solve = charFrequency;

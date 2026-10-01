@@ -1,14 +1,21 @@
 """Aplanar objeto (master).
 
-Source exercise: https://coding-challenges.dev/problems/aplanar-objeto
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-aplanar-objeto
 
-from python.platform_solutions import solve_challenge
+Dado un objeto con posibles propiedades anidadas, devuelve un nuevo objeto **plano** donde las claves anidadas se unen con puntos (`.`).
+
+### Ejemplo
+
+```
+flattenObject({ a: 1, b: { c: 2, d: 3 } })  → { "a": 1, "b.c": 2, "b.d": 3 }
+flattenObject({ x: { y: { z: 1 } } })        → { "x.y.z": 1 }
+flattenObject({ a: 1, b: 2 })                → { "a": 1, "b": 2 }
+```"""
 
 
-def solve(*args):
-    """Solve the Aplanar objeto challenge."""
-    return solve_challenge("aplanar-objeto", *args)
+def flatten_object(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-flatten_object = solve
+
+solve = flatten_object

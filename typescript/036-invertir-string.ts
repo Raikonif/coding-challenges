@@ -1,12 +1,17 @@
 /**
  * Invertir string (easy).
  * Source exercise: https://coding-challenges.dev/problems/invertir-string
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Crea una función que invierta una cadena de texto.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * reverseString("hola") → "aloh"
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("invertir-string", args);
+export function reverseString(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const reverseString = solve;
+export const solve = reverseString;

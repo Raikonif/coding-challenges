@@ -1,14 +1,20 @@
 """Longitud de string (easy).
 
-Source exercise: https://coding-challenges.dev/problems/longitud-string
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-longitud-string
 
-from python.platform_solutions import solve_challenge
+Devuelve la cantidad de caracteres de un string.
+
+### Ejemplo
+
+```
+stringLength("hola") → 4
+stringLength("") → 0
+```"""
 
 
-def solve(*args):
-    """Solve the Longitud de string challenge."""
-    return solve_challenge("longitud-string", *args)
+def string_length(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-string_length = solve
+
+solve = string_length

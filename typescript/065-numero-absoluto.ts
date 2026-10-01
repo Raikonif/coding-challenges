@@ -1,12 +1,19 @@
 /**
  * Número absoluto (easy).
  * Source exercise: https://coding-challenges.dev/problems/numero-absoluto
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un número, devuelve su valor absoluto.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * absoluteValue(5)   → 5
+ * absoluteValue(-3)  → 3
+ * absoluteValue(0)   → 0
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("numero-absoluto", args);
+export function absoluteValue(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const absoluteValue = solve;
+export const solve = absoluteValue;

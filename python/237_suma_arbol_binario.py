@@ -1,14 +1,41 @@
 """Suma de árbol binario (medium).
 
-Source exercise: https://coding-challenges.dev/problems/suma-arbol-binario
-The full prompt and examples are recorded in catalog/coding-challenges.json.
+Source exercise: https://coding-challenges.dev/problems/python-suma-arbol-binario
+
+## Suma de árbol binario
+
+Se te da un árbol binario representado como un array siguiendo el orden de nivel (BFS). El índice `0` es la raíz. Para un nodo en el índice `i`:
+
+- Hijo izquierdo: índice `2 * i + 1`
+- Hijo derecho: índice `2 * i + 2`
+- El valor `null` indica que ese nodo no existe.
+
+Tu tarea es calcular la **suma de todos los valores** del árbol usando **recursión**.
+
+## Ejemplos
+
+```typescript
+sumBinaryTree([1, 2, 3])
+// 6  (1 + 2 + 3)
+
+sumBinaryTree([1, 2, 3, 4, 5, null, null])
+// 15  (1 + 2 + 3 + 4 + 5)
+
+sumBinaryTree([10, null, 5])
+// 15
+```
+
+## Restricciones
+
+- El array puede estar vacío → retorna `0`.
+- Los valores pueden ser negativos.
+- Debes resolverlo con recursión.
 """
 
-from python.platform_solutions import solve_challenge
+
+def sum_binary_tree(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
 
-def solve(*args):
-    """Solve the Suma de árbol binario challenge."""
-    return solve_challenge("suma-arbol-binario", *args)
-
-sum_binary_tree = solve
+solve = sum_binary_tree

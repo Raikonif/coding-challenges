@@ -1,12 +1,24 @@
 /**
  * Expresiones regulares simplificadas (hard).
  * Source exercise: https://coding-challenges.dev/problems/simplified-regex-matching
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * > Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+ *
+ * Este ejercicio fue preguntado por **Facebook**.
+ *
+ * Implementa una función que evalúe si un string coincide con una expresión regular simplificada. La expresión regular puede contener los siguientes caracteres especiales:
+ *
+ * - `.` (punto): coincide con cualquier carácter individual.
+ * - `*` (asterisco): coincide con cero o más repeticiones del elemento anterior.
+ *
+ * Por ejemplo:
+ * - La expresión `"ra."` coincide con `"ray"` → `true`, pero no con `"raymond"` → `false`.
+ * - La expresión `".*at"` coincide con `"chat"` → `true`, pero no con `"chats"` → `false`.
+ *
+ * Tu función debe devolver `true` si el string completo coincide con el patrón, o `false` en caso contrario.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("simplified-regex-matching", args);
+export function simplifiedRegexMatching(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const simplifiedRegexMatching = solve;
+export const solve = simplifiedRegexMatching;

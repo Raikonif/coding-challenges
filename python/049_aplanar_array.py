@@ -1,14 +1,20 @@
 """Aplanar array (medium).
 
-Source exercise: https://coding-challenges.dev/problems/aplanar-array
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-aplanar-array
 
-from python.platform_solutions import solve_challenge
+Dado un array de arrays de números, devuelve un solo array con todos los elementos.
+
+### Ejemplo
+
+```
+flatten([[1, 2], [3, 4], [5]]) → [1, 2, 3, 4, 5]
+flatten([[]]) → []
+```"""
 
 
-def solve(*args):
-    """Solve the Aplanar array challenge."""
-    return solve_challenge("aplanar-array", *args)
+def flatten(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-flatten = solve
+
+solve = flatten

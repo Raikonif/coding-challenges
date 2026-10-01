@@ -1,14 +1,51 @@
 """Mochila 0/1 (master).
 
-Source exercise: https://coding-challenges.dev/problems/mochila-0-1
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-mochila-0-1
 
-from python.platform_solutions import solve_challenge
+## Mochila 0/1
+
+El **problema de la mochila 0/1** es un clásico de programación dinámica.
+
+Tienes una mochila con una **capacidad máxima** en peso. Se te da un conjunto de artículos, cada uno con un **peso** y un **valor**. Debes seleccionar artículos para maximizar el valor total sin exceder la capacidad, y cada artículo solo puede elegirse **una vez** (0 o 1 veces).
+
+Devuelve el **valor máximo** que se puede llevar en la mochila.
+
+### Parámetros
+
+- `weights`: array de enteros con el peso de cada artículo.
+- `values`: array de enteros con el valor de cada artículo.
+- `capacity`: entero con la capacidad máxima de la mochila.
+
+### Ejemplos
+
+```ts
+knapsack([1, 2, 3], [6, 10, 12], 5)
+// Artículos posibles: {peso:1,valor:6}, {peso:2,valor:10}, {peso:3,valor:12}
+// Mejor selección: artículo 2 (peso 2, valor 10) + artículo 3 (peso 3, valor 12) = valor 22
+// resultado: 22
+
+knapsack([2, 3, 4, 5], [3, 4, 5, 6], 5)
+// resultado: 7  (artículo 0: peso 2 valor 3 + artículo 1: peso 3 valor 4)
+
+knapsack([10], [100], 5)
+// El único artículo pesa más que la capacidad
+// resultado: 0
+
+knapsack([], [], 10)
+// Sin artículos
+// resultado: 0
+```
+
+### Notas
+- `weights.length === values.length`.
+- Todos los pesos y valores son enteros positivos.
+- `capacity` es un entero no negativo.
+- Si ningún artículo cabe, devuelve `0`."""
 
 
-def solve(*args):
-    """Solve the Mochila 0/1 challenge."""
-    return solve_challenge("mochila-0-1", *args)
+def mochila_0_1(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-mochila_0_1 = solve
+
+solve = mochila_0_1

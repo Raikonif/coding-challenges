@@ -1,12 +1,18 @@
 /**
  * Primer elemento (easy).
  * Source exercise: https://coding-challenges.dev/problems/primer-elemento
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve el primer elemento de un array de números, o `undefined` si está vacío.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * first([10, 20, 30]) → 10
+ * first([]) → undefined
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("primer-elemento", args);
+export function first(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const first = solve;
+export const solve = first;

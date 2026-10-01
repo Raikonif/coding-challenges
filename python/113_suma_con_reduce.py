@@ -1,14 +1,21 @@
 """Suma con reduce (easy).
 
-Source exercise: https://coding-challenges.dev/problems/suma-con-reduce
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-suma-con-reduce
 
-from python.platform_solutions import solve_challenge
+Se te entrega una función que suma los elementos de un array usando un bucle `for`. Tu tarea es **refactorizarla** para que use `.reduce()` y sea más concisa.
+
+## Ejemplo
+
+```typescript
+sumaArray([1, 2, 3, 4]) // 10
+sumaArray([])           // 0
+sumaArray([-1, 5, -2])  // 2
+```"""
 
 
-def solve(*args):
-    """Solve the Suma con reduce challenge."""
-    return solve_challenge("suma-con-reduce", *args)
+def suma_array(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-suma_array = solve
+
+solve = suma_array

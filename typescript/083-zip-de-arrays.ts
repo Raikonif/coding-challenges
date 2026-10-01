@@ -1,12 +1,19 @@
 /**
  * Zip de arrays (medium).
  * Source exercise: https://coding-challenges.dev/problems/zip-de-arrays
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dados dos arrays del mismo tamaño, combínalos en un nuevo array de pares, donde cada par contiene los elementos de la misma posición.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * zipArrays([1, 2, 3], [4, 5, 6])   → [[1,4],[2,5],[3,6]]
+ * zipArrays(["a","b"], ["c","d"])   → [["a","c"],["b","d"]]
+ * zipArrays([], [])                 → []
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("zip-de-arrays", args);
+export function zipArrays(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const zipArrays = solve;
+export const solve = zipArrays;

@@ -1,12 +1,31 @@
 /**
  * Verificar Anagramas (medium).
  * Source exercise: https://coding-challenges.dev/problems/typescript-verificar-anagramas
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Verificar Anagramas
+ *
+ * Dadas dos cadenas de texto, determina si son **anagramas** entre sí.
+ *
+ * Dos palabras son anagramas si contienen exactamente los mismos caracteres con las mismas frecuencias, ignorando mayúsculas/minúsculas y espacios.
+ *
+ * ### Ejemplos
+ *
+ * ```typescript
+ * areAnagrams("listen", "silent")   // true
+ * areAnagrams("Triangle", "Integral") // true
+ * areAnagrams("hello", "world")     // false
+ * areAnagrams("Astronomer", "Moon starer") // true
+ * ```
+ *
+ * ### Restricciones
+ *
+ * - Las cadenas pueden contener letras y espacios.
+ * - Ignora mayúsculas y minúsculas.
+ * - Ignora los espacios al comparar.
+ * - Si ambas cadenas están vacías (o solo tienen espacios), son anagramas entre sí.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("verificar-anagramas", args);
+export function areAnagrams(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const areAnagrams = solve;
+export const solve = areAnagrams;

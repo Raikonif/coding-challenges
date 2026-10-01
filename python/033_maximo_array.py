@@ -1,14 +1,21 @@
 """Máximo de un array (easy).
 
-Source exercise: https://coding-challenges.dev/problems/maximo-array
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-maximo-array
 
-from python.platform_solutions import solve_challenge
+Implementa una función que reciba un array de números y devuelva el valor máximo.
+Si el array está vacío, devuelve `undefined`.
+
+### Ejemplo
+
+```
+max([1, 5, 3, 9, 2]) → 9
+max([]) → undefined
+```"""
 
 
-def solve(*args):
-    """Solve the Máximo de un array challenge."""
-    return solve_challenge("maximo-array", *args)
+def max_value(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-max_value = solve
+
+solve = max_value

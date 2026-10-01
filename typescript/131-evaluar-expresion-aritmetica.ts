@@ -1,12 +1,11 @@
 /**
  * Evaluar expresión aritmética (master).
  * Source exercise: https://coding-challenges.dev/problems/evaluar-expresion-aritmetica
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dada una cadena que representa una expresión aritmética con enteros, operadores +, -, *, / y paréntesis, evalúa la expresión y retorna el resultado. La división es entera (trunca hacia cero). No hay espacios en la cadena.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("evaluar-expresion-aritmetica", args);
+export function evaluarExpresionAritmetica(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const evaluarExpresionAritmetica = solve;
+export const solve = evaluarExpresionAritmetica;

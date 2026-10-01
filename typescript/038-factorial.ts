@@ -1,12 +1,19 @@
 /**
  * Factorial (medium).
  * Source exercise: https://coding-challenges.dev/problems/factorial
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Implementa la función factorial. El factorial de `n` (`n!`) es el producto de todos los enteros desde 1 hasta `n`.
+ * Por definición, `0! = 1`.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * factorial(5) → 120
+ * factorial(0) → 1
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("factorial", args);
+export function factorial(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const factorial = solve;
+export const solve = factorial;

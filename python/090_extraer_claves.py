@@ -1,14 +1,29 @@
 """Extraer claves (easy).
 
-Source exercise: https://coding-challenges.dev/problems/extraer-claves
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-extraer-claves
 
-from python.platform_solutions import solve_challenge
+## Extraer claves
+
+Dado un objeto, devuelve un array con todas sus claves (propiedades) en el orden en que aparecen en el objeto.
+
+### Ejemplos
+
+```typescript
+extractKeys({ nombre: "Ana", edad: 25 });       // ["nombre", "edad"]
+extractKeys({ x: 1, y: 2, z: 3 });              // ["x", "y", "z"]
+extractKeys({});                                  // []
+extractKeys({ a: true });                         // ["a"]
+```
+
+### Restricciones
+
+- El argumento siempre será un objeto (nunca `null` ni `undefined`).
+- El objeto puede estar vacío."""
 
 
-def solve(*args):
-    """Solve the Extraer claves challenge."""
-    return solve_challenge("extraer-claves", *args)
+def extract_keys(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-extract_keys = solve
+
+solve = extract_keys

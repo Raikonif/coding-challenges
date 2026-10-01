@@ -1,12 +1,18 @@
 /**
  * Suma de dos números (easy).
  * Source exercise: https://coding-challenges.dev/problems/suma-dos-numeros
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Escribe una función que reciba dos números y devuelva su suma.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * sum(2, 3) → 5
+ * sum(-1, 1) → 0
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("suma-dos-numeros", args);
+export function sum(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const sum = solve;
+export const solve = sum;

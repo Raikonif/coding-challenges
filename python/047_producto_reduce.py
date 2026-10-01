@@ -1,14 +1,20 @@
 """Producto con reduce (medium).
 
-Source exercise: https://coding-challenges.dev/problems/producto-reduce
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-producto-reduce
 
-from python.platform_solutions import solve_challenge
+Multiplica todos los elementos de un array usando **reduce**. Array vacío debe dar 1.
+
+### Ejemplo
+
+```
+productReduce([2, 3, 4]) → 24
+productReduce([]) → 1
+```"""
 
 
-def solve(*args):
-    """Solve the Producto con reduce challenge."""
-    return solve_challenge("producto-reduce", *args)
+def product_reduce(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-product_reduce = solve
+
+solve = product_reduce

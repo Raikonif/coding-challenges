@@ -1,12 +1,19 @@
 /**
  * Longitud de la última palabra (hard).
  * Source exercise: https://coding-challenges.dev/problems/longitud-ultima-palabra
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un string con palabras separadas por espacios, devuelve la longitud de la última palabra.
+ * Ignora espacios al final del string.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * lengthOfLastWord("hello world") → 5
+ * lengthOfLastWord("  fly me   to   the moon  ") → 4
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("longitud-ultima-palabra", args);
+export function lengthOfLastWord(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const lengthOfLastWord = solve;
+export const solve = lengthOfLastWord;

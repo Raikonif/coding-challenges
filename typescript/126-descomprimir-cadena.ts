@@ -1,12 +1,11 @@
 /**
  * Descomprimir cadena (hard).
  * Source exercise: https://coding-challenges.dev/problems/descomprimir-cadena
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dada una cadena codificada en formato k[s] donde k es un entero positivo y s es una cadena, descomprime y devuelve la cadena resultante. La cadena puede tener anidamiento. Ejemplo: "3[a]2[bc]" → "aaabcbc", "3[a2[c]]" → "accaccacc".
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("descomprimir-cadena", args);
+export function descomprimirCadena(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const descomprimirCadena = solve;
+export const solve = descomprimirCadena;

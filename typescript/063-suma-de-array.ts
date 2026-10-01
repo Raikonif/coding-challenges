@@ -1,12 +1,19 @@
 /**
  * Suma de array (easy).
  * Source exercise: https://coding-challenges.dev/problems/suma-de-array
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de números, devuelve la suma de todos sus elementos. Si el array está vacío, devuelve `0`.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * sumArray([1, 2, 3]) → 6
+ * sumArray([]) → 0
+ * sumArray([-5, 5]) → 0
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("suma-de-array", args);
+export function sumArray(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const sumArray = solve;
+export const solve = sumArray;

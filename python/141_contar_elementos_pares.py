@@ -1,14 +1,27 @@
 """Contar elementos pares (easy).
 
-Source exercise: https://coding-challenges.dev/problems/contar-elementos-pares
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-contar-elementos-pares
 
-from python.platform_solutions import solve_challenge
+Dado un array de números enteros, devuelve la cantidad de números **pares** que contiene.
+
+## Ejemplos
+
+```typescript
+countEvenNumbers([1, 2, 3, 4, 5, 6])  // 3
+countEvenNumbers([1, 3, 5])            // 0
+countEvenNumbers([])                   // 0
+```
+
+## Notas
+
+- Un número es par si es divisible entre 2 sin residuo.
+- Si el array está vacío, devuelve 0.
+- Considera también los números negativos."""
 
 
-def solve(*args):
-    """Solve the Contar elementos pares challenge."""
-    return solve_challenge("contar-elementos-pares", *args)
+def count_even_numbers(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-count_even_numbers = solve
+
+solve = count_even_numbers

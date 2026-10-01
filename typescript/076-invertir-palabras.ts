@@ -1,12 +1,19 @@
 /**
  * Invertir palabras (hard).
  * Source exercise: https://coding-challenges.dev/problems/invertir-palabras
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un string con palabras separadas por espacios, devuelve el string con el **orden de las palabras invertido**.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * reverseWords("hola mundo")        → "mundo hola"
+ * reverseWords("el gato come")      → "come gato el"
+ * reverseWords("TypeScript")        → "TypeScript"
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("invertir-palabras", args);
+export function reverseWords(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const reverseWords = solve;
+export const solve = reverseWords;

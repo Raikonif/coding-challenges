@@ -1,12 +1,32 @@
 /**
  * Fusionar objetos (medium).
  * Source exercise: https://coding-challenges.dev/problems/fusionar-objetos
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Fusionar objetos
+ *
+ * Escribe una función que reciba dos objetos y devuelva un **nuevo objeto** que contenga todas las propiedades de ambos.
+ *
+ * ### Reglas
+ *
+ * - Si ambos objetos tienen la misma clave, el valor del **segundo objeto** debe prevalecer.
+ * - No debes modificar los objetos originales.
+ * - El resultado debe ser un objeto plano (no se requiere fusión profunda/recursiva).
+ *
+ * ### Ejemplos
+ *
+ * ```typescript
+ * fusionarObjetos({ a: 1, b: 2 }, { b: 3, c: 4 })
+ * // => { a: 1, b: 3, c: 4 }
+ *
+ * fusionarObjetos({}, { x: 10 })
+ * // => { x: 10 }
+ *
+ * fusionarObjetos({ nombre: "Ana" }, { nombre: "Luis", edad: 25 })
+ * // => { nombre: "Luis", edad: 25 }
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("fusionar-objetos", args);
+export function fusionarObjetos(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const fusionarObjetos = solve;
+export const solve = fusionarObjetos;

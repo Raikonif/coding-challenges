@@ -1,14 +1,20 @@
 """Mínimo de un array (easy).
 
-Source exercise: https://coding-challenges.dev/problems/minimo-array
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-minimo-array
 
-from python.platform_solutions import solve_challenge
+Devuelve el valor mínimo de un array de números. Si está vacío, devuelve `undefined`.
+
+### Ejemplo
+
+```
+min([3, 1, 4, 1, 5]) → 1
+min([]) → undefined
+```"""
 
 
-def solve(*args):
-    """Solve the Mínimo de un array challenge."""
-    return solve_challenge("minimo-array", *args)
+def min_value(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-min_value = solve
+
+solve = min_value

@@ -1,14 +1,38 @@
 """Potencia recursiva (medium).
 
-Source exercise: https://coding-challenges.dev/problems/potencia-recursiva
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-potencia-recursiva
 
-from python.platform_solutions import solve_challenge
+## Potencia recursiva
+
+Implementa una función que calcule `base` elevado a `exp` usando **recursión** (sin usar `Math.pow`, el operador `**`, ni bucles).
+
+### Parámetros
+
+- `base` (number): La base.
+- `exp` (number): El exponente (entero no negativo, >= 0).
+
+### Valor de retorno
+
+- (number): El resultado de `base^exp`.
+
+### Ejemplos
+
+```typescript
+potenciaRecursiva(2, 3)  // → 8
+potenciaRecursiva(5, 0)  // → 1
+potenciaRecursiva(3, 4)  // → 81
+potenciaRecursiva(10, 1) // → 10
+```
+
+### Notas
+
+- Cualquier número elevado a 0 es 1.
+- Debes usar recursión, no bucles ni funciones nativas de potencia."""
 
 
-def solve(*args):
-    """Solve the Potencia recursiva challenge."""
-    return solve_challenge("potencia-recursiva", *args)
+def power(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-power = solve
+
+solve = power

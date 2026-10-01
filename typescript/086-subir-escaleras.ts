@@ -1,12 +1,20 @@
 /**
  * Subir escaleras (hard).
  * Source exercise: https://coding-challenges.dev/problems/subir-escaleras
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Tienes una escalera de `n` peldaños. Puedes subir **1 o 2 peldaños** a la vez. Devuelve el número de formas distintas de llegar hasta arriba.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * climbStairs(1) → 1
+ * climbStairs(2) → 2  (1+1 ó 2)
+ * climbStairs(3) → 3  (1+1+1 ó 1+2 ó 2+1)
+ * climbStairs(4) → 5
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("subir-escaleras", args);
+export function climbStairs(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const climbStairs = solve;
+export const solve = climbStairs;

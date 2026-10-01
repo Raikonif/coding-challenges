@@ -1,12 +1,18 @@
 /**
  * Longitud de string (easy).
  * Source exercise: https://coding-challenges.dev/problems/longitud-string
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve la cantidad de caracteres de un string.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * stringLength("hola") → 4
+ * stringLength("") → 0
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("longitud-string", args);
+export function stringLength(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const stringLength = solve;
+export const solve = stringLength;

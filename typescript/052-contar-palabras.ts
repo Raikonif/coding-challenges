@@ -1,12 +1,18 @@
 /**
  * Contar palabras (medium).
  * Source exercise: https://coding-challenges.dev/problems/contar-palabras
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Cuenta cuántas palabras tiene un string (palabras separadas por uno o más espacios).
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * countWords("hola mundo") → 2
+ * countWords("uno dos tres") → 3
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("contar-palabras", args);
+export function countWords(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const countWords = solve;
+export const solve = countWords;

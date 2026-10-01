@@ -1,12 +1,17 @@
 /**
  * Capitalizar palabras (medium).
  * Source exercise: https://coding-challenges.dev/problems/capitalizar-palabras
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dada una frase, devuelve la misma con la primera letra de cada palabra en mayúscula.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * capitalizeWords("hola mundo") → "Hola Mundo"
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("capitalizar-palabras", args);
+export function capitalizeWords(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const capitalizeWords = solve;
+export const solve = capitalizeWords;

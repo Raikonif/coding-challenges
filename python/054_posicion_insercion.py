@@ -1,14 +1,21 @@
 """Posición de inserción (hard).
 
-Source exercise: https://coding-challenges.dev/problems/posicion-insercion
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-posicion-insercion
 
-from python.platform_solutions import solve_challenge
+Dado un array ordenado y un `target`, devuelve el índice donde debería insertarse `target` para mantener el orden.
+Si `target` ya está, devuelve su índice.
+
+### Ejemplo
+
+```
+searchInsert([1, 3, 5, 6], 5) → 2
+searchInsert([1, 3, 5, 6], 2) → 1
+```"""
 
 
-def solve(*args):
-    """Solve the Posición de inserción challenge."""
-    return solve_challenge("posicion-insercion", *args)
+def posicion_insercion(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-posicion_insercion = solve
+
+solve = posicion_insercion

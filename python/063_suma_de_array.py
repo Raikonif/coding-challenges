@@ -1,14 +1,21 @@
 """Suma de array (easy).
 
-Source exercise: https://coding-challenges.dev/problems/suma-de-array
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-suma-de-array
 
-from python.platform_solutions import solve_challenge
+Dado un array de números, devuelve la suma de todos sus elementos. Si el array está vacío, devuelve `0`.
+
+### Ejemplo
+
+```
+sumArray([1, 2, 3]) → 6
+sumArray([]) → 0
+sumArray([-5, 5]) → 0
+```"""
 
 
-def solve(*args):
-    """Solve the Suma de array challenge."""
-    return solve_challenge("suma-de-array", *args)
+def sum_array(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sum_array = solve
+
+solve = sum_array

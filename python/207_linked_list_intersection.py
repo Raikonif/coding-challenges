@@ -1,14 +1,25 @@
 """Intersección de listas enlazadas (hard).
 
-Source exercise: https://coding-challenges.dev/problems/linked-list-intersection
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-linked-list-intersection
 
-from python.platform_solutions import solve_challenge
+> Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+
+Este ejercicio fue preguntado por **Google**.
+
+Dadas dos listas enlazadas simples que se intersectan en algún punto, encuentra el valor del nodo de intersección. Las listas no son cíclicas.
+
+Por ejemplo, dada la lista A = [3, 7, 8, 10] y la lista B = [99, 1, 8, 10], el nodo de intersección tiene el valor 8, ya que ambas listas comparten el sufijo [8, 10].
+
+Si no hay intersección, devuelve -1.
+
+**Nota:** Se asume que la intersección ocurre cuando ambas listas comparten el mismo sufijo (los últimos elementos son iguales).
+
+**Restricciones:** Resuélvelo en tiempo O(M + N) donde M y N son las longitudes de las listas, y espacio constante."""
 
 
-def solve(*args):
-    """Solve the Intersección de listas enlazadas challenge."""
-    return solve_challenge("linked-list-intersection", *args)
+def linked_list_intersection(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-linked_list_intersection = solve
+
+solve = linked_list_intersection

@@ -1,14 +1,22 @@
 """Fibonacci (medium).
 
-Source exercise: https://coding-challenges.dev/problems/fibonacci
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-fibonacci
 
-from python.platform_solutions import solve_challenge
+Devuelve el n-ésimo número de la secuencia de Fibonacci (0-indexed).
+
+- `fib(0) = 0`, `fib(1) = 1`
+- `fib(n) = fib(n-1) + fib(n-2)`
+
+### Ejemplo
+
+```
+fibonacci(6) → 8
+```"""
 
 
-def solve(*args):
-    """Solve the Fibonacci challenge."""
-    return solve_challenge("fibonacci", *args)
+def fibonacci(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-fibonacci = solve
+
+solve = fibonacci

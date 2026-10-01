@@ -1,12 +1,11 @@
 /**
  * Contar islas (hard).
  * Source exercise: https://coding-challenges.dev/problems/contar-islas
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dada una matriz binaria de 0s y 1s, cuenta el número de islas. Una isla es un grupo de 1s conectados horizontal o verticalmente, rodeados por 0s o por los bordes de la matriz.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("contar-islas", args);
+export function contarIslas(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const contarIslas = solve;
+export const solve = contarIslas;

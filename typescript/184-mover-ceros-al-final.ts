@@ -1,12 +1,28 @@
 /**
  * Mover ceros al final (medium).
  * Source exercise: https://coding-challenges.dev/problems/mover-ceros-al-final
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Descripción
+ *
+ * Dado un array de números enteros, devuelve un nuevo array donde todos los `0`s han sido movidos al final, **manteniendo el orden relativo** de los demás elementos.
+ *
+ * ## Ejemplos
+ *
+ * ```typescript
+ * moveZerosToEnd([0, 1, 0, 3, 12]) // [1, 3, 12, 0, 0]
+ * moveZerosToEnd([0, 0, 1])        // [1, 0, 0]
+ * moveZerosToEnd([1, 2, 3])        // [1, 2, 3]
+ * moveZerosToEnd([0, 0, 0])        // [0, 0, 0]
+ * ```
+ *
+ * ## Notas
+ *
+ * - No modifiques el array original; devuelve uno nuevo.
+ * - El orden relativo de los elementos no-cero debe preservarse.
+ * - Si no hay ceros, devuelve el array tal como está.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("mover-ceros-al-final", args);
+export function moveZerosToEnd(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const moveZerosToEnd = solve;
+export const solve = moveZerosToEnd;

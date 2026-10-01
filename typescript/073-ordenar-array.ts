@@ -1,12 +1,19 @@
 /**
  * Ordenar array (medium).
  * Source exercise: https://coding-challenges.dev/problems/ordenar-array
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de números, devuélvelo ordenado de **menor a mayor**. No modifiques el array original.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * sortNumbers([3, 1, 2])    → [1, 2, 3]
+ * sortNumbers([5, 4, 3, 2, 1]) → [1, 2, 3, 4, 5]
+ * sortNumbers([-3, 0, 2])  → [-3, 0, 2]
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("ordenar-array", args);
+export function sortNumbers(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const sortNumbers = solve;
+export const solve = sortNumbers;

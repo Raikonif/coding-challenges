@@ -1,14 +1,13 @@
 """LRU Cache (master).
 
-Source exercise: https://coding-challenges.dev/problems/lru-cache
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-lru-cache
 
-from python.platform_solutions import solve_challenge
+Implementa una función que simule un caché LRU (Least Recently Used). Recibe la capacidad y un array de operaciones. Cada operación es ["get", key] o ["put", key, value]. Retorna un array con los resultados: para "put" retorna null, para "get" retorna el valor o -1 si la clave no existe o fue eliminada."""
 
 
-def solve(*args):
-    """Solve the LRU Cache challenge."""
-    return solve_challenge("lru-cache", *args)
+def lru_cache(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-lru_cache = solve
+
+solve = lru_cache

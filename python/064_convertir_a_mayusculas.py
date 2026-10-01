@@ -1,14 +1,21 @@
 """Convertir a mayúsculas (easy).
 
-Source exercise: https://coding-challenges.dev/problems/convertir-a-mayusculas
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-convertir-a-mayusculas
 
-from python.platform_solutions import solve_challenge
+Dado un string, devuélvelo convertido completamente a mayúsculas.
+
+### Ejemplo
+
+```
+toUpperCase("hola")       → "HOLA"
+toUpperCase("TypeScript") → "TYPESCRIPT"
+toUpperCase("")           → ""
+```"""
 
 
-def solve(*args):
-    """Solve the Convertir a mayúsculas challenge."""
-    return solve_challenge("convertir-a-mayusculas", *args)
+def to_upper_case(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-to_upper_case = solve
+
+solve = to_upper_case

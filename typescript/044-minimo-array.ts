@@ -1,12 +1,18 @@
 /**
  * Mínimo de un array (easy).
  * Source exercise: https://coding-challenges.dev/problems/minimo-array
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Devuelve el valor mínimo de un array de números. Si está vacío, devuelve `undefined`.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * min([3, 1, 4, 1, 5]) → 1
+ * min([]) → undefined
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("minimo-array", args);
+export function min(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const min = solve;
+export const solve = min;

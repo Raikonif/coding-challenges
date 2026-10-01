@@ -1,14 +1,20 @@
 """Sin duplicados (medium).
 
-Source exercise: https://coding-challenges.dev/problems/sin-duplicados
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-sin-duplicados
 
-from python.platform_solutions import solve_challenge
+Dado un array de números, devuelve un nuevo array sin elementos repetidos (mismo orden).
+
+### Ejemplo
+
+```
+unique([1, 2, 2, 3, 1, 4]) → [1, 2, 3, 4]
+unique([5, 5, 5]) → [5]
+```"""
 
 
-def solve(*args):
-    """Solve the Sin duplicados challenge."""
-    return solve_challenge("sin-duplicados", *args)
+def unique(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-unique = solve
+
+solve = unique

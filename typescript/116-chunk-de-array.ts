@@ -1,12 +1,29 @@
 /**
  * Chunk de array (medium).
  * Source exercise: https://coding-challenges.dev/problems/chunk-de-array
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Chunk de array
+ *
+ * Dado un array y un tamaño `size`, divide el array en subarrays de exactamente `size` elementos cada uno. El último subarray puede tener menos elementos si el array no es divisible exactamente por `size`.
+ *
+ * ## Ejemplos
+ *
+ * ```
+ * chunkArray([1, 2, 3, 4, 5], 2)  // [[1, 2], [3, 4], [5]]
+ * chunkArray([1, 2, 3, 4], 2)     // [[1, 2], [3, 4]]
+ * chunkArray([1, 2, 3], 1)        // [[1], [2], [3]]
+ * chunkArray([1, 2, 3], 5)        // [[1, 2, 3]]
+ * chunkArray([], 3)               // []
+ * ```
+ *
+ * ## Notas
+ *
+ * - Si el array está vacío, devuelve `[]`.
+ * - Si `size` es mayor que la longitud del array, devuelve un único subarray con todos los elementos.
+ * - El orden de los elementos debe mantenerse.
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("chunk-de-array", args);
+export function chunkArray(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const chunkArray = solve;
+export const solve = chunkArray;

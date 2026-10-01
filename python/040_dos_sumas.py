@@ -1,14 +1,20 @@
 """Dos sumas (hard).
 
-Source exercise: https://coding-challenges.dev/problems/dos-sumas
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-dos-sumas
 
-from python.platform_solutions import solve_challenge
+Dado un array de números y un `target`, devuelve los índices de los dos números que suman `target`.
+Puedes asumir que siempre hay exactamente una solución.
+
+### Ejemplo
+
+```
+twoSum([2, 7, 11, 15], 9) → [0, 1]
+```"""
 
 
-def solve(*args):
-    """Solve the Dos sumas challenge."""
-    return solve_challenge("dos-sumas", *args)
+def dos_sumas(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-dos_sumas = solve
+
+solve = dos_sumas

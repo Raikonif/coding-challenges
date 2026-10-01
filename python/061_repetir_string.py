@@ -1,14 +1,20 @@
 """Repetir string (easy).
 
-Source exercise: https://coding-challenges.dev/problems/repetir-string
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-repetir-string
 
-from python.platform_solutions import solve_challenge
+Devuelve el string `s` repetido `n` veces. Si `n` es 0, devuelve string vacío.
+
+### Ejemplo
+
+```
+repeatString("ab", 3) → "ababab"
+repeatString("x", 0) → ""
+```"""
 
 
-def solve(*args):
-    """Solve the Repetir string challenge."""
-    return solve_challenge("repetir-string", *args)
+def repeat_string(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-repeat_string = solve
+
+solve = repeat_string

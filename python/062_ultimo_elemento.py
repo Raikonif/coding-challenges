@@ -1,14 +1,20 @@
 """Último elemento (easy).
 
-Source exercise: https://coding-challenges.dev/problems/ultimo-elemento
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-ultimo-elemento
 
-from python.platform_solutions import solve_challenge
+Devuelve el último elemento de un array de números, o `undefined` si está vacío.
+
+### Ejemplo
+
+```
+last([1, 2, 3]) → 3
+last([]) → undefined
+```"""
 
 
-def solve(*args):
-    """Solve the Último elemento challenge."""
-    return solve_challenge("ultimo-elemento", *args)
+def last(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-last = solve
+
+solve = last

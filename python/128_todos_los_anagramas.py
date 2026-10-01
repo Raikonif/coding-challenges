@@ -1,14 +1,13 @@
 """Todos los anagramas (hard).
 
-Source exercise: https://coding-challenges.dev/problems/todos-los-anagramas
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-todos-los-anagramas
 
-from python.platform_solutions import solve_challenge
+Dada una cadena s y un patrón p, retorna un array con todos los índices de inicio donde aparece un anagrama de p en s. Un anagrama es una reordenación de todas las letras del patrón. El resultado debe estar ordenado."""
 
 
-def solve(*args):
-    """Solve the Todos los anagramas challenge."""
-    return solve_challenge("todos-los-anagramas", *args)
+def todos_los_anagramas(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-todos_los_anagramas = solve
+
+solve = todos_los_anagramas

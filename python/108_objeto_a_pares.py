@@ -1,14 +1,36 @@
 """Objeto a pares (medium).
 
-Source exercise: https://coding-challenges.dev/problems/objeto-a-pares
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-objeto-a-pares
 
-from python.platform_solutions import solve_challenge
+## Objeto a pares
+
+Dado un objeto con claves de tipo string y valores de tipo string o número, devuelve un array de pares `[clave, valor]` ordenados alfabéticamente por clave.
+
+### Parámetros
+
+- `obj`: Un objeto con claves string y valores de tipo `string | number`.
+
+### Valor de retorno
+
+Un array de arrays, donde cada sub-array contiene dos elementos: la clave y su valor correspondiente. El resultado debe estar ordenado alfabéticamente por la clave.
+
+### Ejemplos
+
+```typescript
+objectToPairs({ name: "Ana", age: 25 });
+// [["age", 25], ["name", "Ana"]]
+
+objectToPairs({ z: 1, a: 2 });
+// [["a", 2], ["z", 1]]
+
+objectToPairs({});
+// []
+```"""
 
 
-def solve(*args):
-    """Solve the Objeto a pares challenge."""
-    return solve_challenge("objeto-a-pares", *args)
+def object_to_pairs(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-object_to_pairs = solve
+
+solve = object_to_pairs

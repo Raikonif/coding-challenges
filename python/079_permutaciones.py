@@ -1,14 +1,21 @@
 """Permutaciones (master).
 
-Source exercise: https://coding-challenges.dev/problems/permutaciones
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-permutaciones
 
-from python.platform_solutions import solve_challenge
+Dado un array de números, devuelve **todas las permutaciones posibles** de sus elementos en orden lexicográfico.
+
+### Ejemplo
+
+```
+permutations([1, 2])    → [[1,2],[2,1]]
+permutations([1])       → [[1]]
+permutations([1, 2, 3]) → [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+```"""
 
 
-def solve(*args):
-    """Solve the Permutaciones challenge."""
-    return solve_challenge("permutaciones", *args)
+def permutations(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-permutations = solve
+
+solve = permutations

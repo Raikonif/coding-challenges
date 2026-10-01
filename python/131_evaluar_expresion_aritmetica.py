@@ -1,14 +1,13 @@
 """Evaluar expresión aritmética (master).
 
-Source exercise: https://coding-challenges.dev/problems/evaluar-expresion-aritmetica
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-evaluar-expresion-aritmetica
 
-from python.platform_solutions import solve_challenge
+Dada una cadena que representa una expresión aritmética con enteros, operadores +, -, *, / y paréntesis, evalúa la expresión y retorna el resultado. La división es entera (trunca hacia cero). No hay espacios en la cadena."""
 
 
-def solve(*args):
-    """Solve the Evaluar expresión aritmética challenge."""
-    return solve_challenge("evaluar-expresion-aritmetica", *args)
+def evaluar_expresion_aritmetica(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-evaluar_expresion_aritmetica = solve
+
+solve = evaluar_expresion_aritmetica

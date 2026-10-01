@@ -1,12 +1,17 @@
 /**
  * Filtrar positivos (easy).
  * Source exercise: https://coding-challenges.dev/problems/filtrar-positivos
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Escribe una función que reciba un array de números y devuelva solo los positivos (mayores que 0).
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * filterPositive([1, -2, 3, -4, 5]) → [1, 3, 5]
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("filtrar-positivos", args);
+export function filterPositive(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const filterPositive = solve;
+export const solve = filterPositive;

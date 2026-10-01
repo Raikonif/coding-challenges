@@ -1,14 +1,28 @@
 """Máximo de cada ventana deslizante (hard).
 
-Source exercise: https://coding-challenges.dev/problems/sliding-window-maximum
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-sliding-window-maximum
 
-from python.platform_solutions import solve_challenge
+> Adaptado de [Daily Coding Problem](https://www.dailycodingproblem.com).
+
+Este ejercicio fue preguntado por **Google**.
+
+Dado un array de enteros y un número `k`, donde `1 <= k <= longitud del array`, calcula el valor máximo de cada subarray de longitud `k`.
+
+Por ejemplo, dado `array = [10, 5, 2, 7, 8, 7]` y `k = 3`, el resultado debe ser `[10, 7, 8, 8]`, ya que:
+
+```
+10 = max(10, 5, 2)
+7  = max(5, 2, 7)
+8  = max(2, 7, 8)
+8  = max(7, 8, 7)
+```
+
+Bonus: ¿Puedes resolverlo en tiempo O(n) y espacio O(k)?"""
 
 
-def solve(*args):
-    """Solve the Máximo de cada ventana deslizante challenge."""
-    return solve_challenge("sliding-window-maximum", *args)
+def sliding_window_maximum(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-sliding_window_maximum = solve
+
+solve = sliding_window_maximum

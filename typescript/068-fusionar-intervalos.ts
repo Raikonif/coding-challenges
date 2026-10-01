@@ -1,12 +1,21 @@
 /**
  * Fusionar intervalos (master).
  * Source exercise: https://coding-challenges.dev/problems/fusionar-intervalos
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de intervalos `[inicio, fin]`, fusiona todos los intervalos que se solapan y devuelve el array resultante ordenado.
+ *
+ * Dos intervalos se solapan si el inicio de uno es menor o igual al fin del otro.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * mergeIntervals([[1,3],[2,6],[8,10],[15,18]]) → [[1,6],[8,10],[15,18]]
+ * mergeIntervals([[1,4],[4,5]])               → [[1,5]]
+ * mergeIntervals([[1,4],[2,3]])               → [[1,4]]
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("fusionar-intervalos", args);
+export function mergeIntervals(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const mergeIntervals = solve;
+export const solve = mergeIntervals;

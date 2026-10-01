@@ -1,14 +1,20 @@
 """Contar palabras (medium).
 
-Source exercise: https://coding-challenges.dev/problems/contar-palabras
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-contar-palabras
 
-from python.platform_solutions import solve_challenge
+Cuenta cuántas palabras tiene un string (palabras separadas por uno o más espacios).
+
+### Ejemplo
+
+```
+countWords("hola mundo") → 2
+countWords("uno dos tres") → 3
+```"""
 
 
-def solve(*args):
-    """Solve the Contar palabras challenge."""
-    return solve_challenge("contar-palabras", *args)
+def count_words(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-count_words = solve
+
+solve = count_words

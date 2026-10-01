@@ -1,12 +1,18 @@
 /**
  * Aplanar array (medium).
  * Source exercise: https://coding-challenges.dev/problems/aplanar-array
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de arrays de números, devuelve un solo array con todos los elementos.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * flatten([[1, 2], [3, 4], [5]]) → [1, 2, 3, 4, 5]
+ * flatten([[]]) → []
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("aplanar-array", args);
+export function flatten(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const flatten = solve;
+export const solve = flatten;

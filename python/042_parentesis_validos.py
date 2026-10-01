@@ -1,14 +1,22 @@
 """Paréntesis válidos (master).
 
-Source exercise: https://coding-challenges.dev/problems/parentesis-validos
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-parentesis-validos
 
-from python.platform_solutions import solve_challenge
+Dado un string que solo contiene `()[]{}`, determina si los paréntesis están bien balanceados.
+Cada apertura debe cerrarse con el mismo tipo y en el orden correcto.
+
+### Ejemplo
+
+```
+isValidParentheses("()") → true
+isValidParentheses("()[]{}") → true
+isValidParentheses("(]") → false
+```"""
 
 
-def solve(*args):
-    """Solve the Paréntesis válidos challenge."""
-    return solve_challenge("parentesis-validos", *args)
+def is_valid_parentheses(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-is_valid_parentheses = solve
+
+solve = is_valid_parentheses

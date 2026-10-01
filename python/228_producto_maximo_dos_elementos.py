@@ -1,14 +1,31 @@
 """Producto máximo de dos elementos (medium).
 
-Source exercise: https://coding-challenges.dev/problems/producto-maximo-dos-elementos
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-producto-maximo-dos-elementos
 
-from python.platform_solutions import solve_challenge
+## Producto máximo de dos elementos
+
+Dado un array de números enteros `nums`, encuentra el **producto máximo** que se puede obtener multiplicando cualquier par de elementos distintos (por índice) del array.
+
+Debes retornar ese producto máximo.
+
+## Ejemplos
+
+```ts
+maxProduct([1, 5, 3, 2])    // 15  (5 * 3)
+maxProduct([-5, -3, -1])    // 15  (-5 * -3)
+maxProduct([0, 5, 2])       // 10  (5 * 2)
+maxProduct([2, 2])          // 4
+```
+
+## Restricciones
+
+- El array tendrá al menos 2 elementos
+- Los elementos pueden ser negativos, cero o positivos"""
 
 
-def solve(*args):
-    """Solve the Producto máximo de dos elementos challenge."""
-    return solve_challenge("producto-maximo-dos-elementos", *args)
+def max_product(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-max_product = solve
+
+solve = max_product

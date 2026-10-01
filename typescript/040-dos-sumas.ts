@@ -1,12 +1,18 @@
 /**
  * Dos sumas (hard).
  * Source exercise: https://coding-challenges.dev/problems/dos-sumas
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un array de números y un `target`, devuelve los índices de los dos números que suman `target`.
+ * Puedes asumir que siempre hay exactamente una solución.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * twoSum([2, 7, 11, 15], 9) → [0, 1]
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("dos-sumas", args);
+export function twoSum(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const twoSum = solve;
+export const solve = twoSum;

@@ -1,14 +1,20 @@
 """Número que aparece una vez (master).
 
-Source exercise: https://coding-challenges.dev/problems/numero-unico
-The full prompt and examples are recorded in catalog/coding-challenges.json.
-"""
+Source exercise: https://coding-challenges.dev/problems/python-numero-unico
 
-from python.platform_solutions import solve_challenge
+En un array donde todos los números aparecen **dos veces** excepto uno, devuelve ese único número.
+
+### Ejemplo
+
+```
+singleNumber([2, 2, 1]) → 1
+singleNumber([4, 1, 2, 1, 2]) → 4
+```"""
 
 
-def solve(*args):
-    """Solve the Número que aparece una vez challenge."""
-    return solve_challenge("numero-unico", *args)
+def single_number(*args):
+    """Implement this challenge using the prompt above."""
+    raise NotImplementedError("Complete this exercise to make its tests pass.")
 
-single_number = solve
+
+solve = single_number

@@ -1,12 +1,18 @@
 /**
  * Binario a decimal (master).
  * Source exercise: https://coding-challenges.dev/problems/binario-a-decimal
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * Dado un string que representa un número en binario (solo '0' y '1'), devuelve su valor en decimal.
+ *
+ * ### Ejemplo
+ *
+ * ```
+ * binaryToDecimal("101") → 5
+ * binaryToDecimal("1111") → 15
+ * ```
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("binario-a-decimal", args);
+export function binaryToDecimal(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const binaryToDecimal = solve;
+export const solve = binaryToDecimal;

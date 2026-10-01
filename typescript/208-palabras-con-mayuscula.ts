@@ -1,12 +1,30 @@
 /**
  * Palabras que inician con mayúscula (easy).
  * Source exercise: https://coding-challenges.dev/problems/palabras-con-mayuscula
- * Full prompt and examples: catalog/coding-challenges.json
+ * Prompt and examples:
+ * ## Descripción
+ *
+ * Dada una cadena de texto, cuenta cuántas palabras comienzan con una letra mayúscula.
+ *
+ * Una "palabra" es cualquier secuencia de caracteres separada por espacios.
+ *
+ * ## Ejemplos
+ *
+ * ```ts
+ * countCapitalizedWords("Hola mundo Qué tal") // 2  ("Hola", "Qué")
+ * countCapitalizedWords("todo en minusculas") // 0
+ * countCapitalizedWords("Todo Empieza Con Mayuscula") // 4
+ * countCapitalizedWords("") // 0
+ * ```
+ *
+ * ## Notas
+ *
+ * - Si la cadena está vacía, retorna `0`.
+ * - Los espacios múltiples entre palabras deben ignorarse.
+ * - Solo cuenta palabras que comiencen con una letra (A-Z, incluyendo letras con acento como Á, É, etc.).
  */
-import { solveChallenge } from "./platform-solutions.ts";
-
-export function solve(...args: any[]): any {
-  return solveChallenge("palabras-con-mayuscula", args);
+export function countCapitalizedWords(...args: any[]): any {
+  throw new Error("Complete this exercise to make its tests pass.");
 }
 
-export const countCapitalizedWords = solve;
+export const solve = countCapitalizedWords;
